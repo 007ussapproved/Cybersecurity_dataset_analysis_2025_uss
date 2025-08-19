@@ -31,6 +31,6 @@ python scripts/ua_ca_custom.py
 
 ## Data and Results
 
-### Raw outputs are stored in /results/raw/ in both JSONL and CSV formats.
-### Processed analysis files are stored in /results/analysis/ in CSV format.
-### Outputs include paper–dataset instances, unique datasets, UA/CA breakdowns, and details of custom-created datasets.
+1). Raw outputs are stored in /results/raw/ in both JSONL and CSV formats.
+2). Processed analysis files are stored in /results/analysis/ in CSV format.
+3). Outputs include paper–dataset instances, unique datasets, UA/CA breakdowns, and details of custom-created datasets.
