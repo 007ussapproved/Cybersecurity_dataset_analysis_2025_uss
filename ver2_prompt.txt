@@ -114,7 +114,7 @@ def generate_system_prompt(paper, task, dataset_names):
         \t\t\t- Public datasets are freely available for download (e.g., datasets hosted on websites like Kaggle, GitHub, or institutional repositories).
         \t\t\t- Proprietary datasets are owned by organizations and are generally not accessible unless the user has a special agreement.
         \t\t\t- Restricted datasets are accessible only under specific conditions (e.g., requiring permission or collaboration).
-        \t\t\t- Custom-created datasets are generated specifically for the research project and are usually not shared publicly.
+        \t\t\t- Custom-created datasets are generated specifically for the research project and are usually shared not shared publicly.
 
         \t\t- **Labeling Type**: Whether the dataset is 'labeled', 'unlabeled', or 'hybrid'.
         \t\t\t- A **labeled dataset** is one where each data point is associated with an explicit label or category (e.g., 'malware' vs. 'benign' for network traffic data).
@@ -147,7 +147,7 @@ def generate_system_prompt(paper, task, dataset_names):
                     "dataset_name": "Exact dataset name from the dataset_name task",
                     "availability": "Extracted availability status (public, proprietary, restricted, or custom-created)",
                     "labeling_type": "Extracted labeling type (labeled, unlabeled, or hybrid)",
-                    "dataset_type": "Extracted dataset type (realistic, synthetic, or hybrid)"
+                    "dataset_type": "Extracted dataset type (real-world, realistic, synthetic, or hybrid)"
                 }}
             ]
         }}
