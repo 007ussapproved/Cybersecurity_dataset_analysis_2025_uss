@@ -1,0 +1,932 @@
+import json
+
+def generate_system_prompt(paper, task, dataset_names):
+    title = paper['title']
+    content = paper['content']
+
+    # Extract title first and then reuse in other tasks
+    if task == "title":
+        return f"""
+        You are tasked with extracting the title of the provided cybersecurity paper.
+        
+        Guidelines:
+        \t1. The title is often at the top of the first page.
+        \t2. Extract the title in its entirety.
+        
+        Here is the paper content:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned in the following JSON format:
+        {{
+            "title": "Title of the paper here"
+        }}
+
+        Your response: """
+
+    elif task == "authors_name":
+        return f"""
+        You are tasked with extracting the authors' names from the provided cybersecurity paper.
+        
+        Guidelines:
+        \t1. The authors' names are usually listed directly below the title.
+        \t2. Extract all the authors, separated by commas.
+        
+        Here is the paper content:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned in the following JSON format:
+        {{
+            "authors": "Comma-separated list of authors' names here"
+        }}
+
+        Your response: """
+
+    elif task == "conference_name":
+        return f"""
+        You are tasked with extracting the conference name where the paper was presented.
+        
+        Guidelines:
+        \t1. The conference name is usually found at the top or bottom of the first page.
+        \t2. Use the short form (USS, NDSS, ACSAC, SP, CCS) if applicable.
+        
+        Here is the paper content:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned in the following JSON format:
+        {{
+            "conference": "Short form of conference name (USS, NDSS, ACSAC, SP, CCS)"
+        }}
+
+        Your response: """
+
+    elif task == "published_year":
+        return f"""
+        You are tasked with extracting the year of publication from the provided cybersecurity paper.
+        
+        Guidelines:
+        \t1. The year of publication is usually found near the conference name or at the bottom of the first page.
+        
+        Here is the paper content:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned in the following JSON format:
+        {{
+            "year": "Year of publication here"
+        }}
+        
+        Your response: """
+
+    elif task == "school_institution":
+        return f"""
+        You are tasked with extracting the school or institution name(s) associated with the authors of the provided cybersecurity paper.
+        
+        Guidelines:
+        \t1. The institution or school is often listed near the authors' names, either directly below or in the footer of the first page.
+        \t2. Extract all institutions mentioned, separated by commas if there are multiple.
+        
+        Here is the paper content:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned in the following JSON format:
+        {{
+            "school": "Comma-separated list of schools/institutions"
+        }}
+        
+        Your response: """
+     
+    # Use the title extracted earlier in the remaining tasks
+    elif task == "domain":
+        title = paper['title']  # Use the extracted title
+
+        research_domains_list = [
+            "botnet detection",
+            "privacy-preserving computation",
+            "Network Security", 
+            "adversarial data mining",
+            "Adversarial Social Networking"
+            "IoT security",
+            "information security",
+            "Web application security",
+            "embedded systems security",
+            "mobile browser security",
+            "password security",
+            "malware analysis and detection",
+            "machine learning for cybersecurity",
+            "deep learning for cybersecurity",
+            "cryptographic api misuse detection",
+            "adversarial machine learning",
+            "access control and authorization",
+            "authentication mechanisms",
+            "ransomware detection and mitigation",
+            "blockchain and cryptographic security",
+            "cloud security",
+            "big data security"
+        ]
+
+        research_domains = ", ".join(research_domains_list)
+        
+        return f"""
+        
+        You are tasked with identifying the **research domain** of the cybersecurity paper titled "{title}".
+        
+        ### Guidelines:
+
+        \t1. **Primary Objective**: Determine the research domain of the paper based on a thorough analysis of its content. The research domain is the high-level category that best represents the primary focus of the paper.
+
+        \t2. **First, Check the Provided List**:
+        
+        \t\t- Review the following list of research domains:
+        {research_domains}
+        
+        \t\t- **If the paper's research domain matches or is closely related to any domain on this list, select that domain**.
+        
+        \t3. **If No Suitable Match is Found**:
+        \t\t- **If none of the domains on the list accurately reflect the paper's primary focus**, identify a new research domain that does.
+        \t\t- **Do not guess**. Read the paper thoroughly to determine the correct research domain.
+        
+        \t4. **Selection Criteria**:
+        \t\t- The research domain should be a concise, high-level category (e.g., "IoT security", "malware analysis", "network security").
+        \t\t- **Only provide one research domain per paper**.
+
+        \t5. **For Papers from CCS Conference**:
+        \t\t- CCS conference papers often include session headings or themes, typically found in the **top-left corner** of the paper, near the conference name.
+        \t\t- Common headings include terms like **Cyber Threats**, **Inference Attacks**, or **Network Security**or **Adversarial Social Networking** etc. Also try to look paper's **Keyword**
+        \t\t-**If the heading matches any of the predefined domains, use it as the research domain.**
+        \t\t-**For Papers from other Conference**:
+        \t\t-Look up the **research_domain** from the **keywords** or the whole **content** of the paper; it might help.
+
+        \t6- Make sure to be consistent with **research_domains** name. For example if two papers have same research_domain like both lies under **network intrusion detection**, then stick with this name for both papers, done return 'network traffic' for another one.
+        
+        \t7. **Output Format**:
+         
+         Your response must be returned only in valid pure JSON, using the following format:
+        {{
+            "research_domain": "the paper's research domain here. All lowercase. Multiple words separated by single whitespace"
+        }}
+                
+        6. **Content Restrictions**:
+        - **Do not include any explanations, notes, or additional text**. Only provide the JSON output as specified.
+
+         Here is the paper:
+         <Start of Paper Content>
+         {content}
+         <End of Paper Content>
+         Your response: """
+
+
+    elif task == "dataset_name":
+        datasets = [
+            {
+                "unique_id": "null",  # Set to null if not found in existing datasets
+                "dataset_name": "Name of the first dataset you find",
+                "contributors": "Comma separated string of contributors names for the first dataset you find",
+                "doi": "DOI for the first dataset you find. If not available, this should be an empty string.",
+                "url": "URL link to the first dataset you find. If not available, this should be an empty string.",
+            },
+            {
+                "unique_id": "null",  # Set to null if not found in existing datasets
+                "dataset_name": "Name of the second dataset you find",
+                "contributors": "Comma separated string of contributors names for the second dataset you find",
+                "doi": "DOI for the second dataset you find. If not available, this should be an empty string.",
+                "url": "URL link to the second dataset you find. If not available, this should be an empty string.",
+            }
+        ]
+        datasets_json = json.dumps({"datasets": datasets}, indent=4)
+        
+        return f"""
+
+        You are tasked with identifying and extracting datasets from the cybersecurity paper titled "{title}".
+        
+        Guidelines:
+        
+        **STRICTLY FOLLOW ALL GUIDELINES**
+
+        \t1.**Definition of a Dataset**:
+        \t- A dataset is a named collection of data used for experiments, evaluation, training, testing, or comparison.
+        \t- Examples: CICIDS2017, UNSW-NB15, CAIDA, Alexa top 1 million, HDFS, etc. In one paper they can use as much dataset they want, for instance; if they have used 10 dataset so return all 10 dataset in output.
+        \t- Custom-created datasets by the authors also count if explicitly mentioned as such.
+        \t- Datasets can be mentioned explicitly by name (e.g., "We use UNSW-NB15") or implicitly (e.g., "we use the dataset from [25]" if reference [25] clearly points to a dataset).
+
+        \t2. **Be Comprehensive & Systematic:**
+        \t- Carefully read the entire paper content (including references and methodology sections).
+        \t- Identify every dataset mentioned, not just the first few. If you find 10 datasets, list all 10.
+        \t- If the same dataset is mentioned multiple times under slightly different names (e.g., "HDFS dataset", "HDFS logs"), consider them as referring to the same dataset.
+        
+        \t3. **Real Example from a Paper**:
+        Consider the ACM CCS paper "Recompose Event Sequences vs. Predict Next Events: A Novel Anomaly Detection Approach for Discrete Event Logs" as an example:
+        \t- Introduction: "DabLog achieves 97.18% and 80.25% F1 scores in evaluation upon HDFS system logs and UNSW-NB15 traffic logs..."
+        \t- Motivation section: "Both methods were evaluated upon the same HDFS dataset [38, 39]..."
+        \t- Evaluation section: "We evaluate DabLog with two datasets: UNSW-NB15 traffic logs [29] and HDFS console logs [39]..."
+        
+        From these mentions, we clearly identify two datasets:
+        \t- "HDFS"
+        \t- "UNSW-NB15"
+        
+        In such a scenario, both "HDFS" and "UNSW-NB15" must be returned.
+        
+        \t4. **Consider Reference-Based Mentions**:
+        \t- If the paper references a dataset indirectly, for example, "the same HDFS dataset [38, 39]," then check references. If these references are known sources for the HDFS dataset, include it.
+        \t- If a known dataset name (like HDFS or UNSW-NB15) appears in the paper, include it. However, do not assume the presence of these datasets unless the paper actually mentions them. Known examples are provided just to help you recognize them if they appear, not to guess their presence.
+        
+        \t5. **No Guessing or Inferring**:
+        
+        \t- Do not guess or infer a dataset if it's not explicitly mentioned.
+        \t- Attacks, vulnerabilities, software tools, protocols, or platforms are not datasets.
+        \t- If after thoroughly reviewing the paper and references you find no dataset mentioned, return 'null':
+        
+         {{
+           "datasets": null
+         }}
+
+        \t6.**Do not confuse datasets with other elements**:
+        \t- Vulnerability Codes: These are vulnerability codes, so be vigilant. Examples include "CVE-2019-14815", "CVE-2016-4997", and "CVE-2017-9074". Be vigilant with this information, For Example: In the paper "Automated Bug Hunting With Data-Driven Symbolic RootCause Analysis" authors haven't used any dataset, instead CVE (Common Vulnerabilities and Exposures) is used as part of the analysis, particularly focusing on specific vulnerabilities and their contexts. However, CVE is not treated as a "dataset" in the conventional sense, as it serves more as a standardized catalog for identifying known security vulnerabilities. So return this paper's output as 'null' 
+        \t- Attacks: These are attack techniques, not datasets. Examples include "SQL injection", "DDoS", and "Phishing".
+        \t- Bugs: These represent software flaws or defects. Examples include "software flaws" and "defects".
+        \t- Kernel Modules: These are components of the OS, not datasets. Examples include "ipv6.ko" and "nf_tables.ko".
+        \t- Network Protocols: These are communication protocols. Examples include "TCP", "UDP", "IPv4", and "IPv6".
+        \t- Software Libraries or Packages: These are tools or resources, not datasets. Examples include "libc.so" and "openssl".
+        \t- Standalone Applications and Benchmark Suites: SPEC CPU2006, NGINX, and PostgreSQL are not software libraries or packages.
+        \t\t- SPEC CPU2006 is a benchmark suite used to evaluate CPU and memory performance across standardized tasks, primarily for research and testing purposes. Fo example in the paper "VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks", no dataset is used , which mean you will return "null" output, don't consider **SPEC CPU2006** as a dataset.
+        \t\t- NGINX is a web server application commonly used to handle HTTP requests, serve static content, and balance load across servers.
+        \t\t- PostgreSQL is a standalone database management system (DBMS) that manages data storage, retrieval, and complex querying.
+        \t\t- ObliviSync is a secure file synchronization and backup system based on write-only ORAM techniques. It evaluates performance using realistic file size distributions without relying on traditional datasets.
+        \t\t\t- Example:The paper "ObliviSync: Practical Oblivious File Backup and Synchronization" evaluates a system for secure file synchronization and backup but does not rely on traditional datasets. So technically, they haven't used any dataset, so it should return 'null'.
+        \t- Permissioned Distributed Ledger Platform: Corda is a distributed ledger platform developed by R3 for businesses, focusing on privacy, efficiency, and regulatory compliance. Unlike public blockchains, Corda uses a permissioned network, ensuring that only authorized parties can participate and view transactions. Corda achieves privacy through point-to-point communication and a unique notary system that prevents double-spending without broadcasting transactions. Its modular design supports smart contracts and can be tailored to different industries, making it suitable for applications in finance, healthcare, supply chain, and more. 
+        \t- Artifact: sometimes authors release their own artifact and shared it, don't confuse it with dataset.
+        \t- Raspberry Pi: Raspberry Pi is a small, affordable computer, often used for educational purposes, DIY projects, and experiments in computing, robotics, and IoT, not a dataset. For example in the paper "Indistinguishability Prevents Scheduler Side Channels in Real-Time Systems" no dataset is used , which mean you will return "null" output, don't consider **Raspberry Pi** as a dataset.
+        
+        \t7. For each dataset, identify:
+        \t- **Name** of the dataset.
+        \t- **Contributors** (authors or creators).
+        \t- **DOI** The DOI of the dataset (if available)
+        \t- **URL** The URL link of the dataset (if available)
+        \t\t- Look for DOIs and URLs in the reference section, especially for **custom-created but public** datasets. In these cases, the contributors are usually the authors of the paper, and they often explicitly mention sharing links to platforms like GitHub or other repositories. Be sure to check for these, but do not include any random GitHub or other links—only include links where the authors explicitly state that they have shared their datasets. Remain vigilant in confirming this information. 
+        \t\t- If no dataset is found, return:
+         
+         {{
+           "datasets": null
+         }}
+
+         \t8. If **dataset_name** task is 'null' so all the other task(s) like **dataset_analysis_combined** , **dataset_categories** and **** will be 'null' too.
+        
+        - **Null Cases** Examples:
+
+        Example 1: The paper "Indistinguishability Prevents Scheduler Side Channels in Real-Time Systems" is not a dataset-related paper, which mean the haven't used any dataset, so return the output as 'null'. And other tasks like **dataset_analysis_combined** , **dataset_categories** and **dataset_usage** will be 'null' too.
+        Json Output:
+        
+        {{
+           "datasets": null
+         }}
+
+         
+         - Other Examples:
+         
+         Example 1: In the paper "WristPrint: Characterizing User Re-identification Risks from Wrist-worn Accelerometry Data", the author used two **public** datasets like "mORAL" and "WISDM".
+ {{
+        "datasets": [
+            {{
+                "unique_id": "null",
+                "dataset_name": "mORAL",
+                "contributors": "Sayma Akther, Nazir Saleheen, Shahin Alan Samiei, Vivek Shetty, Emre Ertin, Santosh Kumar",
+                "doi": "",
+                "url": ""
+            }},
+            {{
+                "unique_id": "null",
+                "dataset_name": "WISDM",
+                "contributors": "Gary M Weiss",
+                "doi": "",
+                "url": "https://www.uci.edu/ml/datasets/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset"
+            }}
+        ]
+    }}
+
+           Example 4: In the "A Lightweight IoT Cryptojacking Detection Mechanism in Heterogeneous Smart Home Networks"  a **public **dataset like "Network traffic for machine learning classification" or "Benign dataset" and **Custom-created datasets but public** dataset are used.
+    {{
+        "datasets": [
+            {{
+                "unique_id": "null",
+                "dataset_name": "Iot cryptojacking",
+                "contributors": "Ege Tekiner, Abbas Acar, A. Selcuk Uluagac,
+                "doi": "",
+                "url": "https://github.com/cslfiu/IoTCryptojacking"
+            }},
+            {{
+                "unique_id": "null",
+                "dataset_name": "Benign Dataset",
+                "contributors": "Víctor Labayen Guembe, Eduardo Magaña, Daniel Morató, Mikel Izal",
+                "doi": "10.17632/5pmnkshffm.1",
+                "url": "https://data.mendeley.com/datasets/5pmnkshffm/1"
+            }}
+        ]
+    }}
+        
+        Here is the list of existing datasets:
+        <Existing dataset(s) start>
+        {existing_datasets}
+        <Existing dataset(s) stop>
+
+        Here is the paper:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+
+        Your output must be returned in valid JSON format:
+
+        {datasets_json}
+    
+        Your response: """
+
+     
+
+        
+    
+    elif task == "dataset_analysis_combined":
+        
+        return f"""
+
+        You are tasked with identifying the **availability**, **labeling_type**, and **dataset_type** for each dataset extracted in the **dataset_name** task for the cybersecurity paper titled "{title}".
+
+        ### **Guidelines:**
+
+        \t1. For each dataset, you will identify the following:
+        \t- **availability**: Whether the dataset is 'public', 'proprietary', 'restricted', 'Custom-created datasets, not shared', or 'Custom-created datasets but public'.
+        \t\t- **Public** are freely available for download (e.g., datasets hosted on websites like Kaggle, GitHub, or institutional repositories. **Public** are freely available for download (e.g., datasets hosted on websites like Kaggle, GitHub, or institutional repositories). These datasets existed before the research and were not curated specifically by the authors.
+        - Example: in the paper "Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information", they used are publicaly available datasets. The output should look like this:
+        Json Output:
+
+         {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Common Voice",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+                "dataset_name": "Song",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+                "dataset_name": "LibriSpeech",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+            }},
+                "dataset_name": "Voxceleb dataset",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }}
+        ]
+    }} 
+
+         - Example: in the paper "AHEAD: Adaptive Hierarchical Decomposition for Range Query under Local Differential Privacy", they used are usually publicaly available datasets. The output should look like this:
+
+         Json Output:
+
+         {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Salaries",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+                "dataset_name": "blackfriday",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+                "dataset_name": "Loan",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+            }},
+                "dataset_name": "Financial",
+                "availability": "synthetic (explicitly mentioned)",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }}
+        ]
+    }} 
+         
+        
+      t\t- **Proprietary** are those owned outright by an organization and are typically not accessible to the public, there is no route given to access them. 
+        For instance, many internal company records, commercial databases, or market research datasets are considered proprietary because the owning entity.
+        \t\t- **Restricted** are accessible only under specific conditions (e.g., requiring permission, collaboration, DUA, or  licensing). 
+        - Example 1: The HCUP dataset available at [https://hcup-us.ahrq.gov/tech_assist/centdist.jsp] is classified as a restricted dataset. 
+        Although the data is derived from real-world healthcare information, access is granted only under specific conditions, such as requiring permission
+        through a data use agreement, ensuring that the sensitive nature of the data is properly managed.
+     
+        \t\t- **Custom-created datasets, not shared** are generated specifically for the research project and are not shared publicly. For example the custom created dataset in the paper **(Un)informed Consent: Studying GDPR Consent Notices in the Field** is not shared so return it as **Custom-created datasets, not shared**.
+        \t\t- **Custom-created datasets but public** are custom datasets created by the authors but shared publicly.
+\t\t- **Custom-created datasets, but restricted** are Custom-Restricted datasets created by authors but shared with access restrictions.
+         -Note: Sometimes, authors who create custom datasets may explicitly mention in their paper or dataset documentation 
+        (URL/DOI or citation details) that, due to the large size of the dataset, they are unable to share it online but can provide access upon request
+        (don't make random guess). For example, in the paper "Towards Precise Reporting of Cryptographic Misuses", the authors mentioned in their GitHub link: 
+        'Our original datasets consist of a data set of **3,489 open-source Android apps obtained from F-Droid**, and a data set of **1,437 firmwares** 
+        collected from 6 vendors. Due to the large size of the two datasets (APK dataset: 49 GB, firmware dataset: 21 GB), it is difficult to share them online. 
+        If you are interested in obtaining the original **F-Droid**dataset and **firmware** dataset, please contact us.'. 
+        
+        -Json output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "3489 open-source Android apps",
+                "availability": "Custom-created datasets, but restricted",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+                "dataset_name": "1,437 firmware dataset",
+                "availability": "Custom-created datasets, but restricted",
+                "labeling_type": not mentioned",
+                "dataset_type": "realistic"
+            }},
+        ]
+    }}
+        
+        - Example 1: if authors download data (e.g., APK files or malware samples) from platforms like VirusTotal, then apply filtering, labeling, or feature extraction to create a tailored dataset, the resulting dataset is custom-created. While the original source (e.g. VirusTotal) can be cited, the curated dataset is distinct from the original collection and should be classified as 'Custom-created datasets, not shared' or 'Custom-created datasets but public', depending on whether the authors shared it publicly. Like in the paper **EIGER: Automated IOC Generation for Accurate and Interpretable Endpoint Malware Detection** they have collected 162K Malware Samples from VirusTotal and Benign public sources of free Windows software but didnt shared their dataset so return it as **Custom-created datasets, not shared**. Identify this correctly, the output should look like this:
+        -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "162K Malware Samples from VirusTotal",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+            {{
+                "dataset_name": "Benign public sources of free Windows software",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }},
+            {{
+                "dataset_name": "Hybrid Analysis Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }}
+        ]
+    }}
+        
+        - Example 2: in the paper "C3PO: Large-Scale Study of Covert Monitoring of C&C Servers via Over-Permissioned Protocol Infiltration" where they collected **200,000 malware samples** over 15 year, identify this dataset as **Custom-created datasets, not shared**, since author(s) didnt mentioned sharing this dataset with the community. Identify it correctly, the output should look like this:
+        -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "200k Malware Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "realistic"
+            }}
+        ]
+    }}
+        
+        - Example 3: in the paper "Deterrence of Intelligent DDoS via Multi-Hop Traffic Divergence", the author's collected **49.8 TB real dataset from a department at Tsinghua campus network**, identify this and return it as **Custom-created datasets, not shared**. Identify it correctly, The output should look like this:.
+        
+        -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Tsinghua Network Traffic Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "Not Mentioned",
+                "dataset_type": "realistic
+                
+                "
+            }}
+        ]
+    }}
+        - Example 4: In the paper "High Fidelity Data Reduction for Big Data Security Dependency Analyses", the dataset was collected from a real enterprise environment for one month, which makes it a custom-created dataset. However, the authors didn't mention sharing it, so return it as **Custom-created datasets, not shared**, 
+        and the **labeling_type** wasn't mentioned either, so return it as **Not Mentioned**. Identify it correctly, The output should look like this:
+        
+        -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Enterprise Security Dependency Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "Not Mentioned",
+                "dataset_type": "real-world"
+            }},
+        ]
+    }}
+        
+        - Example 5: in the paper "This Sneaky Piggy Went to the Android Ad Market: Misusing Mobile Sensors for Stealthy Data Exfiltration" the datasets used are collected from **4.5K of the most popular apps**, **Two typing datasets** and **one typing datasets** all are **Custom-created datasets, not shared**..
+         -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "4.5K Popular Apps Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "real-world"
+            }},
+                "dataset_name": "Two Typing Datasets",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "synthetic"
+            }},
+                "dataset_name": "One Typing Dataset,
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "synthetic"
+            }},
+        ]
+    }}
+        -  Example 6: in the paper "BAPM: Block Attention Profiling Model for Multi-tab Website Fingerprinting Attacks on Tor" has created and used following datasets, The output should look like this:
+        - Json Ouput:
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Close World Multi-Tab Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "synthetic"
+            }},
+                "dataset_name": "Open World Multi-Tab Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "synthetic"
+            }},
+                "dataset_name": "Three-Tab Dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "labeled",
+                "dataset_type": "synthetic"
+            }},
+            }},
+                "dataset_name": "real world dataset",
+                "availability": "Custom-created datasets but public",
+                "labeling_type": "labeled",
+                "dataset_type": "real-world"
+            }}
+        ]
+    }}
+    
+         - Example 7: in the paper "PDiff: Semantic-based Patch Presence Testing for Downstream Kernels" the datasets used are both customer-created but one is **Custom-created datasets, not shared** and another is **Custom-created datasets but public**. The output should look like this:
+         
+         -Json Output:
+
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "CVE dataset",
+                "availability": "Custom-created datasets, not shared",
+                "labeling_type": "Not mentioned",
+                "dataset_type": "real-world"
+            }},
+                "dataset_name": "Kernel Image dataset,
+                "availability": "Custom-created datasets but public",
+                "labeling_type": "labeled",
+                "dataset_type": "real-world"
+            }},
+        ]
+    }}
+      
+
+      
+        \t-.**labeling_type**: Determine the labeling status of the dataset.
+        \t\t- **labeled**:  A dataset is considered labeled if the paper or the dataset’s official documentation (accessed via DOI, URL, or citation details) explicitly states that data points have labels or categories.  
+        \t\t\t- Example conditions:
+        - The paper says “We manually labeled the dataset.”
+        - The dataset’s website or documentation includes label files or describes classes/categories for each data point.
+        - If labeling is confirmed from external sources (DOI/URL/citation), specify how it was identified, e.g., "labeled (via citation details)" or "labeled (found via URL)".
+        - For image datasets, if classes, annotations, or bounding boxes are mentioned, consider them as labeled.
+        \t\t- **unlabeled**: A dataset is considered unlabeled only if the paper or dataset documentation **explicitly states** that it has no labels or is unlabeled.  
+        \t\t\t- For example, if the paper says, “The dataset is completely unlabeled,” or “We have no ground-truth labels,” then mark it as **unlabeled**.
+        \t\t\t- If discovered via an external source (DOI/URL/citation) that explicitly says it’s unlabeled, note that as "unlabeled (found via URL)" or similar.
+        \t\t-**hybrid**: A dataset is considered hybrid if it explicitly contains both labeled and unlabeled data.  
+        \t\t\t- For instance, if the paper says, “The dataset includes 10,000 labeled samples and 100,000 unlabeled samples,” return **hybrid**.
+        \t\t\t- If the dataset’s documentation (DOI/URL/citation) mentions both labeled and unlabeled subsets, also mark it as **hybrid**.
+        \t\t- **re-labeled**: If the paper explicitly states that they took an existing dataset and re-annotated or re-labeled it for their study, return **re-labeled**.
+        \t\t\t- For example, if it says, “We took the UNSW-NB15 dataset and re-labeled the events according to our criteria,” return **re-labeled**.
+        \t\t- **not mentioned**: If after thoroughly checking the paper, its references, and any accessible DOI/URL information, you cannot find any mention of labeling status (no explicit mention of labeling, unlabeled status, hybrid, or re-labeling), return **not mentioned**.  
+        \t\t\t- Use **not mentioned** if:
+        - The paper never states anything about labeling.
+        - The dataset’s official sources (DOI/URL) do not mention labeling.
+        - No external citation details clarify the labeling status.
+
+        -**Consistent Example Using HDFS**:
+        Suppose the paper mentions the HDFS dataset and references [38,39] for its original introduction:
+        \t\t\t- The paper itself doesn’t state whether HDFS is labeled or unlabeled.  
+        \t\t\t- The instructions say you can use citation details (i.e., papers [38,39]) to learn about the dataset’s labeling. 
+        \t\t\t- After checking the referenced papers (assuming you have "web access" through the citation details—i.e., you can infer what the source papers are known for):
+        - If the HDFS dataset source paper (Xu et al., SOSP ’09) mentions that the dataset consists of system logs classified by event types or that it is commonly known that HDFS data is often annotated with specific event types, you can conclude it is **labeled** (e.g., "labeled (via citation details)" if found in the referenced paper).
+        - If the source says explicitly it’s unlabeled logs (just raw logs without event types) and you confirm it from citation details, return **unlabeled (via citation details)**.
+        - If you find both labeled and unlabeled samples mentioned in the original dataset source, return **hybrid**.
+        - If the paper or the reference does not clarify labeling at all and the dataset’s official documentation (if available) is not accessible, return **not mentioned**.
+        - If the paper says “We re-labeled the HDFS dataset to fit our classification scheme,” return **re-labeled**.
+        - If the dataset’s labeling status can only be found via a URL or DOI that you cannot access, and you know that labeling info should be there, return **unknown (unable to access the web)**.
+
+        \t-. **dataset_type**: Determine the type of dataset.
+         \t\t - **Real-world**: The dataset is directly collected from a real-world system or environment without significant preprocessing. Examples include raw network traffic logs or unaltered user interaction data or a complete packet capture (PCAP) file from a corporate network during a normal workday.
+        \t\t- **realistic**: Data simulating real-world scenarios, but collected in controlled or lab environments to mimic actual conditions. This may involve preprocessing or specific configurations. Example: A network traffic dataset collected from real systems but heavily anonymized or filtered for privacy or anonymized DNS logs or cleaned financial transaction data.
+        \t\t- **synthetic**: The dataset is completely generated using simulations, models, or algorithms without 
+        any direct data from real-world systems. Examples include simulated attack traffic or algorithmically generated 
+        synthetic images, such as the **SYMTCP**.
+        \t\t- **hybrid**:  The dataset combines both real-world and synthetic elements. For example, "UNSW-NB15" dataset which is considered a "hybrid dataset", encompassing both real-world and synthetic elements.
+        - Note: Datasets generated through symbolic execution (e.g., in the SYMTCP project) are considered **synthetic** used in the paper "SYMTCP: Eluding Stateful Deep Packet Inspection with Automated Discrepancy Discovery", The output should look like this:
+        - Json Output:
+        {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "SYMTCP dataset",
+                "availability": "Custom-created datasets but public",
+                "labeling_type":"labeled",
+                "dataset_type": "synthetic"
+            }},
+        ]
+    }}
+        
+        
+        \t2. Ensure that the dataset names match the ones extracted from the **dataset_name** task.
+        \t3. If no dataset is found in the **dataset_name** task, leave **dataset_analysis_combined** task 'null'. Be vigilant.
+
+   
+        Here are the datasets extracted earlier:
+        {dataset_names}
+
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+
+        Your output must be returned only in valid JSON format using the following structure:
+         
+         {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Exact dataset name from the **dataset_name** task",
+                "availability": "Extracted availability status (**public**, **proprietary**, **restricted**, **Custom-created datasets, not shared**, **Custom-created datasets but public**, or **Unknown**)",
+                "labeling_type": "Extracted labeling type (**labeled**, **unlabeled**, **hybrid**, **Re-labeled**, or **Unknown**)",
+                "dataset_type": "Extracted dataset type (**real-world**,**realistic**, **synthetic**, **hybrid**)"
+            }}
+        ]
+    }}
+
+    Output Examples:
+
+    **CAREFULLY CHECK THESE PAPER BEFORE RETURNING BACK THE OUTPUT**
+    
+     Output Examples:
+
+    **CAREFULLY CHECK THESE PAPER BEFORE RETURNING BACK THE OUTPUT**
+    
+    - Example 1: For the paper "Reverse Attack: Black-box Attacks on Collaborative Recommendation"
+    
+    -Json Output:
+
+    
+    {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Netflix",
+                "availability": "public",
+                "labeling_type":"labeled",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Movielens",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Amazon",
+                "availability": "public",
+                "labeling_type": "labeled",
+                "dataset_type": "real-world"
+            }},
+              {{
+                "dataset_name": "Twitter",
+                "availability": "public",
+                "labeling_type": "unlabeled",
+                "dataset_type": "real-world"
+            }},
+             {{
+                "dataset_name": "Google+",
+                "availability": "public",
+                "labeling_type": "hybrid",
+                "dataset_type": "real-world"
+            }},
+             {{
+                "dataset_name": "AMiner Citation Network",
+                "availability": "public",
+                "labeling_type": "unlabeled ",
+                "dataset_type": "real-world"
+            }},
+          ]
+       }}
+
+        - Example 2: For the paper "Differentially Private Publishing of High-dimensional Data".
+        -Json Output:
+
+         {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "Netflix",
+                "availability": "public",
+                "labeling_type":"labeled",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Transaction",
+                "availability": "public",
+                "labeling_type":"labeled",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Movielens",
+                "availability": "public",
+                "labeling_type":"labeled",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Document",
+                "availability": "public",
+                "labeling_type":"unlabeled (found via URL)",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "AOL",
+                "availability": "public",
+                "labeling_type":"unlabeled (found via URL)",
+                "dataset_type": "real-world"
+            }},
+            {{
+                "dataset_name": "Kosarak",
+                "availability": "public",
+                "labeling_type": "unlabeled (found via URL)",
+                "dataset_type": "real-world"
+            }},
+          ]
+        }}
+        - Example 3: For the paper "Recompose Event Sequences vs. Predict Next Events: 
+        A Novel Anomaly Detection Approach for Discrete Event Logs", be aware with **HDFS dataset**.
+        -Json Output:
+
+             {{
+        "dataset_analysis_combined": [
+            {{
+                "dataset_name": "UNSW-NB15",
+                "availability": "public",
+                "labeling_type":"labeled",
+                "dataset_type": "hybrid"
+            }},
+            {{
+                "dataset_name": "HDFS dataset",
+                "availability": "public",
+                "labeling_type": "labeled (via citation details)",
+                "dataset_type": "realistic"
+            }},
+           ]
+         }}
+       
+        Your response: """
+    
+    elif task == "dataset_categories":
+        
+        return f"""
+        
+        You are tasked with identifying the specific categories and subcategories of datasets extracted from the **dataset_name** task used in the cybersecurity paper titled "{title}".
+        
+        Clarification:
+        
+        The **dataset_categories** refers specifically to **what the dataset consists of** or contains, not how it is used in the research. Focus on the dataset's inherent characteristics and contents.
+        
+        Note: These categories are derived from the taxonomy outlined in the **USENIX paper "Cybersecurity Research Datasets: Taxonomy and Empirical Analysis"** by Zheng et al., which provides a structured framework for categorizing cybersecurity datasets.
+        
+        Guidelines:
+        
+        \t1. By **dataset_categories**, we mean identifying whether a dataset belongs to the following major categories and their subcategories:
+        
+        **Major Categories and Subcategories**:
+        
+        \t\t- **Attacker-Related**:
+        \t\t  1. **Attacks**: Datasets containing information about malicious actions performed to harm systems (e.g., CICIDS2017, Kitsune etc).
+        \t\t  2. **Vulnerabilities**: Datasets capturing weaknesses in systems or software that attackers can exploit (e.g., CVE databases).
+        \t\t  3. **Exploits**: Information on how attacks are carried out (e.g., details of exploit code but not tied to specific events).
+        \t\t  4. **Cybercrime Infrastructures**: Datasets capturing illegal operations and tools, such as botnets, marketplaces, or malware delivery.
+        
+        \t\t- **Defender Artifacts**:
+        \t\t  1. **Alerts**: Logs or outputs from defensive systems like intrusion detection systems or firewalls.
+        \t\t  2. **Configurations**: Information on setup and configurations of defense systems (e.g., SSL certificate settings).
+
+        \t\t- **User & Organizational Characteristics**:
+        \t\t  1. **User Activities**: Data on the behavior of users or organizations (e.g., social media activity, browsing logs).
+        \t\t\t- Example: datasets like **IMDB Ratings** and **Netflix** falls under **User Activities** subcategory, because it contains user reviews and ratings for movies, representing user activities and behavioral data.
+        \t\t  2. **User Attitudes**: Survey data capturing opinions or sentiments on cybersecurity topics.
+        \t\t  3. **User Attributes**: Characteristics of users or organizations (e.g., demographic profiles or organizational metadata).
+        \t\t\t- Example: Datasets like **UCI Adult** and **UTKFace** because these datasets include graphic details.
+
+        \t\t- **Macro-Level Internet Characteristics**:
+        \t\t  1. **Applications**: Data on Internet services or products (e.g., website rankings, mobile apps). For example, datasets created by downloading Android apps from repositories like "https://f-droid.org/" fall into this subcategory, as they focus on  andriod applications and their metadata.
+        \t\t\t- Example: Datasets like **CIFAR-10**, **CIFAR-100** (It contains labeled images used for computer vision tasks, such as object recognition, making it part of application-level datasets.) and **MNIST** falls under the *Applications** subcategory
+        \t\t  2. **Network Traces**: Packet-level traffic data or network activity logs. For example, the Benign dataset and the IoT Cryptojacking dataset used in the paper "A Lightweight IoT Cryptojacking Detection Mechanism in Heterogeneous Smart Home Networks" are from Mendeley Data **(https://data.mendeley.com/datasets/5pmnkshffm/1)**, which is a **public** dataset. It captures packet-level details such as timestamps, protocols, payload sizes, and IP addresses, falling under this subcategory. Another **Custom-created datasets but public** dataset **(https://github.com/cslfiu/IoTCryptojacking)** used in the same paper also presents 'Network Traces'.
+        \t\t  3. **Topology**: Information on the structure of the Internet, such as AS relationships or routing paths.
+        \t\t  4. **Benchmarks**: Performance metrics for network systems (e.g., latency, bandwidth).
+        \t\t  5. **Adverse Events**: Non-malicious disruptions like outages caused by misconfigurations.
+
+        \t2. **Examples for Clarity**:
+        \t\t- A dataset like **CICIDS2017**, which contains multiple attack types (e.g., DDoS, Port Scans), should be categorized under **Attacker-Related** -> **Attacks**.
+        \t\t- A dataset like **Netflix Ratings** used in privacy studies should be categorized under **User & Organizational Characteristics** -> **User Activities**.
+        \t\t- A dataset like **CAIDA AS Relationships**, which captures Internet topology data, should be categorized under **Macro-Level Internet Characteristics** -> **Topology**.
+
+        \t3. **Do Not Confuse with Domain**:
+        \t\t- **Domain** refers to the high-level research area (e.g., IoT, malware analysis).
+        \t\t- **Dataset Categories** focus exclusively on the dataset's inherent characteristics (e.g., attacks, vulnerabilities, defender artifacts).
+        \t\t- We are looking at what dataset contains rather than what dataset is used for, don't get confuse with this.
+        
+        \t4. **Null Cases**:
+        \t\t. If no dataset found in **dataset_name** task, leave **dataset_categories** as null
+        \t5. Ensure that the dataset names match the ones extracted from the **dataset_name** task.
+
+
+        Here are the datasets extracted earlier:
+        
+        {dataset_names}
+
+        ### Output Structure:
+
+        The output must strictly follow this JSON structure:
+              
+      {{
+      
+      "dataset_categories": [
+            {{
+                "dataset_name": "Kitsune",
+                "category": "attacker_related",
+                "subcategory": "attacks",
+                "attacker_related_items":[
+                    {{"name": "Fuzzing"}},
+                    {{"name": "ARP MitM"}},
+                    {{"name": "SSDP Flood"}},
+                    {{"name": "SYN DoS"}},
+                    {{"name": "Mirai Botnet"}}
+                    ]
+                }},
+                
+                {{
+                "dataset_name": "OpenSSL Configurations",
+                "category": "defender_artifacts",
+                "subcategory": "configurations",
+                "defender_artifact_items": [
+                    {{"name": "TLS Configuration Data"}},
+                    {{"name": "Cipher Suite Details"}}
+                    ]
+                }},
+                {{
+                "dataset_name": "CAIDA AS Relationships",
+                "category": "macro_internet",
+                "subcategory": "topology",
+                "macro_internet_items": [
+                    {{"name": "Autonomous System (AS) Relationships"}},
+                    {{"name": "BGP Routing Paths"}}
+                    ]
+                }}
+              ]
+           }}
+
+
+    ### Output Example:
+    - For the **Kitsune** dataset, which contains nine attacks such as:
+        1. OS Scan
+        2. Fuzzing
+        3. Video Injection
+        4. ARP MitM
+        5. Active Wiretap
+        6. SSDP Flood
+        7. SYN DoS
+        8. SSL Renegotiation
+        9. Mirai Botnet
+
+      If the paper only utilizes attacks 2, 4, 6, 7, and 9, the output should list only those attacks.
+      
+      <Start of Paper Content>
+      {content}
+      <End of Paper Content>
+      
+      Your response: """
+        
+    
+    else:
+        raise ValueError("Invalid task")

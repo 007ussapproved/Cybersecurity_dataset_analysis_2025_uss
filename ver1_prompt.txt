@@ -1,0 +1,216 @@
+import json
+
+def generate_system_prompt(paper, task, dataset_names):
+    title = paper['title']
+    content = paper['content']
+
+    if task == "domain":
+        research_domains_list = [
+            "botnet detection",
+            "privacy-preserving computation",
+            "network intrusion detection",
+            "adversarial data mining",
+            "IoT security",
+            "embedded systems security",
+            "mobile browser security",
+            "password security",
+            "malware"
+        ]
+
+        research_domains = ", ".join(research_domains_list)
+        
+        return f"""You are tasked with discovering and identifying the **research domain** of a provided cybersecurity paper titled "{title}".
+        Pay attention to the following guidelines to better understand your task.
+        
+        Guidelines:
+        \t1. The **research domain** is the high-level category like 'IoT', 'network traffic', 'malware', 'network intrusion detection', or 'botnet analysis'.
+        \t2. Do not confuse the research domain with sub-domains or specific attacks, such as 'DDoS', 'SQL injection', or 'phishing'. These are considered sub-domains or specific vulnerabilities and should not be listed under the research domain.
+        \t3. Extract only one high-level research domain per paper.
+        
+        Below is a list of **research domains** that you have already discovered by analyzing other papers:
+        {research_domains}
+        
+        Here are Some Examples:
+        - For the paper 'Throwing Darts in the Dark: Detecting Bots with Limited Data using Neural Data Augmentation', the research domain is 'botnet detection'.
+        - For the paper 'Revisiting Square-Root ORAM Efficient Random Access in Multi-party Computation', the research domain is 'privacy preserving computation'.
+        - For the paper 'Lifelong Anomaly Detection Through Unlearning', the research domain is 'anomaly detection'.
+        
+        Here is the paper:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your response must be returned only in valid pure JSON, using the following format:
+        {{
+            "research_domain": "the paper's research domain here. All lowercase. Multiple words separated by single whitespace"
+        }}
+        
+        Your response: """
+    
+    elif task == "dataset_name":
+        
+        datasets = [
+            {
+                "unique_id": "null",  # Set to null if not found in existing datasets
+                "dataset_name": "Name of the first dataset you find",
+                "authors": "Comma separated string of author names for the first dataset you find",
+                "doi": "DOI for the first dataset you find. If not available, this should be an empty string.",
+                "url": "URL link to the first dataset you find. If not available, this should be an empty string."
+            },
+            {
+                "unique_id": "null",  # Set to null if not found in existing datasets
+                "dataset_name": "Name of the second dataset you find",
+                "authors": "Comma separated string of author names for the second dataset you find",
+                "doi": "DOI for the second dataset you find. If not available, this should be an empty string.",
+                "url": "URL link to the second dataset you find. If not available, this should be an empty string."
+            }
+        ]
+        
+        datasets_json = json.dumps({
+            "datasets": datasets
+        }, indent=4)
+        
+        return f"""You are tasked with extracting datasets used in a provided cybersecurity research paper and comparing them to an existing list.
+        The paper you are currently analyzing is titled "{title}".
+        Please pay attention to the following guidelines to better understand your task.
+        
+        Guidelines:
+        \t1. For each paper, you will identify any and all datasets being used in the paper.
+        \t2. For each dataset, you will try to identify the following information about that dataset:
+        \t\t- The name of that dataset
+        \t\t- The authors of the dataset
+        \t\t- The DOI of the dataset (if available)
+        \t\t- The URL link of the dataset (if available)
+        \t3. Compare your findings to the list of previously discovered datasets, looking to see if the new dataset(s) match an existing entry by name, author, or DOI/link.
+        \t\t- If a match is found, return the unique_id of that dataset from the existing list.
+        \t\t- If no match is found, set the unique_id to `null` for that dataset.
+        
+        Here is the list of existing datasets:
+        <Existing dataset(s) start>
+        {existing_datasets}
+        <Existing dataset(s) stop>
+        
+        Here is the paper:
+        <Start of Paper Content>
+        {content}
+        <End of Paper Content>
+        
+        Your output must be only a valid JSON object, using the following format:
+        
+        {datasets_json}
+        
+        Your response: """
+
+    # Combined prompt for availability, labeling_type, and dataset_type
+    elif task == "dataset_analysis_combined":
+    
+
+        return f"""
+        You are tasked with identifying the **availability**, **labeling type**, and **dataset type** for the datasets extracted in the **dataset_name** task for the cybersecurity paper titled "{title}".
+        Guidelines:
+        
+        \t1. For each dataset, you will identify the following:
+        \t\t- **Availability**: Whether the dataset is 'public', 'proprietary', 'restricted', or 'custom-created'.
+        \t\t\t- Public datasets are freely available for download (e.g., datasets hosted on websites like Kaggle, GitHub, or institutional repositories).
+        \t\t\t- Proprietary datasets are owned by organizations and are generally not accessible unless the user has a special agreement.
+        \t\t\t- Restricted datasets are accessible only under specific conditions (e.g., requiring permission or collaboration).
+        \t\t\t- Custom-created datasets are generated specifically for the research project and are usually not shared publicly.
+
+        \t\t- **Labeling Type**: Whether the dataset is 'labeled', 'unlabeled', or 'hybrid'.
+        \t\t\t- A **labeled dataset** is one where each data point is associated with an explicit label or category (e.g., 'malware' vs. 'benign' for network traffic data).
+        \t\t\t- An **unlabeled dataset** is one where no labels are provided, and the data consists only of raw features without categories or classifications.
+        \t\t\t- A **hybrid dataset** contains both labeled and unlabeled data. Some parts of the dataset are labeled while others are not.
+
+        \t\t- **Dataset Type**: Whether the dataset is 'realistic', 'synthetic', or 'hybrid'.
+        \t\t\t - **Real-world**: The dataset is directly collected from a real-world system or environment without significant preprocessing. Examples include raw network traffic logs or unaltered user interaction data or a complete packet capture (PCAP) file from a corporate network during a normal workday.
+        \t\t\t- **realistic**: Data simulating real-world scenarios, but collected in controlled or lab environments to mimic actual conditions. This may involve preprocessing or specific configurations. Example: A network traffic dataset collected from real systems but heavily anonymized or filtered for privacy or anonymized DNS logs or cleaned financial transaction data.
+        \t\t\t- **synthetic**: The dataset is completely generated using simulations, models, or algorithms without 
+        any direct data from real-world systems. Examples include simulated attack traffic or algorithmically generated 
+        synthetic images, such as the **SYMTCP**.
+        \t\t\t- **hybrid**:  The dataset combines both real-world and synthetic elements. For example, "UNSW-NB15" dataset which is considered a "hybrid dataset", encompassing both real-world and synthetic elements.
+
+        \t2. Ensure that the dataset names match the ones extracted from the **dataset_name** task.
+
+        
+        Here are the datasets extracted earlier:
+        {dataset_names}
+
+        Start of Paper Content:
+        {content}
+        End of Paper Content:
+
+        Your output must be returned only in valid JSON format using the following structure:
+
+        {{
+            "datasets": [
+                {{
+                    "dataset_name": "Exact dataset name from the dataset_name task",
+                    "availability": "Extracted availability status (public, proprietary, restricted, or custom-created)",
+                    "labeling_type": "Extracted labeling type (labeled, unlabeled, or hybrid)",
+                    "dataset_type": "Extracted dataset type (realistic, synthetic, or hybrid)"
+                }}
+            ]
+        }}
+
+        Your response:
+        """
+
+    elif task == "dataset_catgeory":
+        
+        return f"""
+        You are tasked with identifying the dataset_catgeory or specific attacks/vulnerabilities covered by a dataset in the cybersecurity paper titled "{title}".
+        
+        Guidelines:
+        \t1. For each dataset, extract sub-domains or specific attacks or vulnerabilities, such as 'DDoS', 'phishing', 'SQL injection', etc.
+        \t2. Each sub-domain should have the attack or vulnerability name and if none of these were mentioned set "attack_type" and "attack_name" as null.
+        \t3. Ensure that the dataset names match the ones extracted from the **dataset_name** task. Since we are looking for the attacks/vulnerabilities covered by a dataset, like **Kitsune** dataset have covered 9 attacks, and these attacks are found in csv format with their labelling.
+
+        
+        Here are the datasets extracted earlier:
+        {dataset_names}
+        
+        \t4. Return the result in the following JSON format:
+
+        {{
+            "sub_domain": [
+            {{
+                "attack_type": "CATEGORY_1",
+                "attacks": [
+                    {{"attack_name": "ATTACK_OR_VULNERABILITY_1_NAME"}},
+                    {{"attack_name": "ATTACK_OR_VULNERABILITY_2_NAME"}}
+                ]
+            }},
+            {{
+                "attack_type": "CATEGORY_2",
+                "attacks": [
+                    {{"attack_name": "ATTACK_OR_VULNERABILITY_3_NAME"}},
+                    {{"attack_name": "ATTACK_OR_VULNERABILITY_4_NAME"}}
+                ]
+            }}
+          ]
+        }}
+        
+        Example:
+        - For the 'Kitsune' dataset, it covers nine attacks or vulnerabilities such as:
+        1. OS Scan using Nmap
+        2. Fuzzing using SFuzz
+        3. Video Injection using Video Jack
+        4. ARP MitM using Ettercap
+        5. Active Wiretap using Raspberry PI 3B
+        6. SSDP Flood using Saddam
+        7. SYN DoS using Hping3
+        8. SSL Renegotiation using THC
+        9. Mirai Botnet Malware using Telnet
+
+        
+        
+        Start of Paper Content:
+        {content}
+        End of Paper Content:
+        
+        Your response: """
+
+    
+  
+    else:
+        raise ValueError("Invalid task")
