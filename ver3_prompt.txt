@@ -636,8 +636,7 @@ def generate_system_prompt(paper, task, dataset_names):
         - If you find both labeled and unlabeled samples mentioned in the original dataset source, return **hybrid**.
         - If the paper or the reference does not clarify labeling at all and the dataset’s official documentation (if available) is not accessible, return **not mentioned**.
         - If the paper says “We re-labeled the HDFS dataset to fit our classification scheme,” return **re-labeled**.
-        - If the dataset’s labeling status can only be found via a URL or DOI that you cannot access, and you know that labeling info should be there, return **unknown (unable to access the web)**.
-
+        
         \t-. **dataset_type**: Determine the type of dataset.
          \t\t - **Real-world**: The dataset is directly collected from a real-world system or environment without significant preprocessing. Examples include raw network traffic logs or unaltered user interaction data or a complete packet capture (PCAP) file from a corporate network during a normal workday.
         \t\t- **realistic**: Data simulating real-world scenarios, but collected in controlled or lab environments to mimic actual conditions. This may involve preprocessing or specific configurations. Example: A network traffic dataset collected from real systems but heavily anonymized or filtered for privacy or anonymized DNS logs or cleaned financial transaction data.
@@ -676,8 +675,8 @@ def generate_system_prompt(paper, task, dataset_names):
         "dataset_analysis_combined": [
             {{
                 "dataset_name": "Exact dataset name from the **dataset_name** task",
-                "availability": "Extracted availability status (**public**, **proprietary**, **restricted**, **Custom-created datasets, not shared**, **Custom-created datasets but public**, or **Unknown**)",
-                "labeling_type": "Extracted labeling type (**labeled**, **unlabeled**, **hybrid**, **Re-labeled**, or **Unknown**)",
+                "availability": "Extracted availability status (**public**, **proprietary**, **restricted**, **Custom-created datasets, not shared**, **Custom-created datasets but public**)",
+                "labeling_type": "Extracted labeling type (**labeled**, **unlabeled**, **hybrid**, **Re-labeled**, or **not-mentioned**)",
                 "dataset_type": "Extracted dataset type (**real-world**,**realistic**, **synthetic**, **hybrid**)"
             }}
         ]
