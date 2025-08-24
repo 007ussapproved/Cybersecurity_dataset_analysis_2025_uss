@@ -1,0 +1,1747 @@
+dataset_name,action,availability,labeling_type,dataset_type,category,subcategory
+.eu ccTLD registry domain registration data,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+000webhost,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+000webhost,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+"1,000 apps tested for web API hijacking vulnerabilities",created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+"1,000 consent notices",created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+"1,104 apps",used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+"1,273 real-world vulnerabilities",created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+"1,435 Android apps",created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+"1,437 firmware dataset",created,"Custom-created datasets, but restricted",Not mentioned,realistic,attacker_related,exploits
+1.1 million bandwidth measurements,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+1.3 million Android apps,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+1.4 billion username-password pairs,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+1.6 million free Android apps (APKs)  from Google Play Store,created,"Custom-created datasets, not shared",not-mentioned,real-world,macro_level_internet_characteristics,network_traces
+1.7 million free Android apps from Google Play,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+"10,000 popular free apps from the Google Play Store",created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+11.8M malware samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+12306,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+12306 PII DATASETS,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+126,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+12 million circuits data,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+"140,000 iOS apps",created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+"150,000 mobile apps",created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+15 popular PHP applications,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+17K most popular free apps,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+188 popular broad-ranging apps,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+18K contracts,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+1inch Exchange Trades,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+1 TB of real-world website deployments,used,proprietary,not mentioned,real-world,attacker_related,cybercrime_infrastructures
+"200,000 Android Apps",created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+2004 HCUP/NIS,used,restricted,labeled,real-world,user_and_organizational_characteristics,user_attributes
+2009 HCUP Nationwide Inpatient Sample (NIS),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+200GB of new ICS experiments,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+200k malware dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+200 popular open-source projects on GitHub,used,public,labeled,real-world,attacker_related,vulnerabilities
+2010 US Census,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+2013 Honda Accord,created,"Custom-created datasets, not shared",Not Mentioned,real-world,attacker_related,attacks
+2015 Chevrolet Trax,created,"Custom-created datasets, not shared",Not Mentioned,real-world,attacker_related,attacks
+2017 dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+2018/2019 dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+"209,188 real-world regexes",created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+20K websites dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+20 Newsgroups,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+20Newsgroups dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+21-st human chromosome,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+2810 evasive samples,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+"29,000 syzkaller fuzzing seeds",used,public,labeled,real-world,attacker_related,vulnerabilities
+"3,788 benchmark binaries",created,Custom-created datasets but public,not mentioned,realistic,attacker_related,exploits
+313 malware samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+335 Russian-sponsored troll accounts,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+3489 open-source Android apps,created,"Custom-created datasets, but restricted",labeled,real-world,user_and_organizational_characteristics,user_activities
+36 billion HTTP(s) requests,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+4.5K of the most popular apps,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+"43,422 Android apps from Google Play and Xiaomi App Market",used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+49.8 TB dataset from Tsinghua campus network,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,network_traces
+4chan,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+4chan dataset,used,public,labeled,real-world,visual_and_multimedia_data,multimodal_datasets
+4chan threads,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+500 top-popular Google Play applications,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+52 samples for ground truth dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+53 firmware samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+5G-NIDD,used,public,labeled,real-world,attacker_related,attacks
+600 human voice segments,created,"Custom-created datasets, not shared",labeled,real-world,visual_and_multimedia_data,audio_datasets
+678 apps with own sign-in,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+67M malware samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+"82,890 unique users",created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+899 firmware samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+A2L and OLS Files,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+aATSample,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Aave Liquidation Events,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+abbreviated open world dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+AbuseEval,used,public,labeled,realistic,attacker_related,attacks
+Academic Papers Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ACID,used,public,labeled,real-world,attacker_related,attacks
+ACM,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+ACN Caltech,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+ACN JPL,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+ACN Office,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+A-Computers,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Active DNS,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Actor,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Ad injection binaries,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Ad injection extensions,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Ad revenue chains,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,applications
+Adult,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Adult database,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Adult Data Set,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Advanced Persistent Threats (APT) Reports,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Adversarial Prefetch Dataset,created,Custom-created datasets but public,Not Mentioned,realistic,attacker_related,exploits
+AES Accelerator,used,public,not mentioned,real-world,defender_artifacts,configurations
+Age,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+age data from the 2009 Nationwide Inpatient Sample (NIS),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+AGNEWS,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Agora,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+AG�s News,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+airfoil,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa's top 1M domains,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Alexa's Top 1 Million,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa's top 500 sites,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa 10k,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Alexa List,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+ALEXA-NET-DEF,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+ALEXA-NODEF,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+ALEXA-NODEF-BG,created,"Custom-created datasets, not shared",unlabeled,real-world,macro_level_internet_characteristics,network_traces
+"Alexa top 10,000",used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top 100,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa top 100K,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa top 100K dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Alexa top 100K sites,used,public,unlabeled,realistic,user_and_organizational_characteristics,user_activities
+Alexa top 100k websites,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Alexa top-100K websites,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Alexa top 100 websites,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top 10K dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Alexa top 10K web ,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top 10k websites,used,public,unlabeled,real-world,attacker_related,vulnerabilities
+Alexa top 10k websites,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Alexa top 1K,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top 1M dataset,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Alexa Top 1 Million,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Alexa Top 1 million (first version),used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top 1 million (second version),used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top-1M websites,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Alexa top 50,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Alexa Top 500,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+Alexa top 500K,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top Million,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top Sites,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Alexa Top Websites,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+AlphaBay,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+AMAZON,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Amazon,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+amazon0505,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+amazon0601,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Amazona,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Amazon Alexa Skills,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Amazon Co-purchase Network for Photos,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Amazon data dump,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Amazon Digital Music (ADM),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Amazon Instant Video,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Amazon product co-purchasing network,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Amazon S3,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+AMD dataset,used,public,labeled,real-world,attacker_related,malware
+A Million News Headlines,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+AMiner Citation Network,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+AmIUnique,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Android application prevalence data,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Android Firmware Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Android malware dataset - VirusShare2018,used,public,relabeled,real-world,attacker_related,malware
+Android ROMs,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,configurations
+Android Security Bulletins,used,public,labeled,real-world,attacker_related,vulnerabilities
+Android usage data,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Androzoo,used,public,labeled,real-world,attacker_related,malware
+Androzoo Dataset,used,public,labeled,real-world,attacker_related,malware
+Annotated Malware Download Paths,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+Anubis Malware Execution Dataset,used,public,labeled,realistic,attacker_related,malware
+AOL,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+AOL search log dataset,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+AOSP Android Libraries,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+AOSP versions,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,configurations
+Apache email corpora,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Apache mailing list archives,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+APIMU4C,used,public,labeled,real-world,attacker_related,exploits
+Apinat,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+APP-350,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+AppData,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+App Evidence Database (AED),created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Apple Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+App Version History Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+APS Trucks,used,public,labeled,real-world,Others,others
+APT,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+APWG Dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Arbor Networks dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Arcene,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Argon2i,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Artbench,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+artificial,created,"Custom-created datasets, not shared",Not Mentioned,synthetic,visual_and_multimedia_data,synthetic_media_datasets
+artist,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+AS Number and Organization,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+AS reputation lists,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+Asterisk,used,public,labeled,real-world,attacker_related,vulnerabilities
+AstroPh,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Astro-Physics collaboration network,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+ASUS RT-AC88U Router Programs,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+ASVspoof 2017,used,public,labeled,real-world,attacker_related,attacks
+ASVspoof 2019,used,public,labeled,real-world,attacker_related,attacks
+ASVspoof 2021,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+AT&T Laboratories Cambridge database of faces,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ATLAS,used,public,labeled,real-world,attacker_related,attacks
+ATLAS (v2),created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+Attack-free activities generated by ordinary users,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,alerts
+Audience Measurement Dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+Audiology,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+AudioMNIST,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+AudioSet,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+Auditory-Pupillary Response Dataset,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Audit Reports Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+AuthDNS,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+AWF dataset,used,public,labeled,realistic,attacker_related,attacks
+AWS CloudTrail audit log events,used,public,labeled,real-world,defender_artifacts,alerts
+Background dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Baidu miniapps,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,vulnerabilities
+Baidu Search Results,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,applications
+Bank,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Bank Marketing,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Bare-metal firmware,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Baseline evaluation dataset,created,"Custom-created datasets, not shared",labeled,realistic,Others,others
+BATADAL,used,public,labeled,synthetic,attacker_related,attacks
+Batadal Dataset,used,public,labeled,realistic,attacker_related,attacks
+Battlefield Heroes,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+BCI competition IV-dataset 2a,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+Benchmark dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Benchmark of 53 real and common PHP malware samples,created,Custom-created datasets but public,labeled,realistic,attacker_related,malware
+Benign and Malware PE files,used,public,labeled,realistic,attacker_related,exploits
+benign apps,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Benign dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Benign Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Benign Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Benign evaluation dataset,created,Custom-created datasets but public,not mentioned,realistic,defender_artifacts,alerts
+Benign JavaScript data,used,public,labeled,real-world,defender_artifacts,alerts
+Benign JavaScript dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+benign program behaviors,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Benign Samples,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Benign session dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+BGL dataset,used,public,labeled,real-world,defender_artifacts,alerts
+bgp,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+BGP routing data,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+BGP table snapshot,used,public,unlabeled,realistic,macro_level_internet_characteristics,topology
+BGP update messages,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+BigDataBench,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Binaries dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Binary File Appearance Logs,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Binutils,used,public,not mentioned,real-world,defender_artifacts,configurations
+Biometric dataset of 30 participants,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Bitcoin addresses annotated with their owners,used,proprietary,labeled,real-world,attacker_related,cybercrime_infrastructures
+Bitcoin IPs,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Bitcoin node IPs,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Bitcoin who-trusts-whom network,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Bitnodes,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+BlackFriday,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Blacklists from Spamhaus,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+BLE IoT Apps from Google Play,used,public,labeled,real-world,attacker_related,vulnerabilities
+Blind Seer,used,public,labeled,real-world,defender_artifacts,alerts
+Blog,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+BlogCatalog social network,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Bloom filter,created,"Custom-created datasets, not shared",not mentioned,synthetic,attacker_related,exploits
+Blue Gene/L supercomputer system logs,used,public,labeled,real-world,defender_artifacts,alerts
+Bluetooth Security Properties,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+BODMAS,used,public,labeled,synthetic,attacker_related,malware
+BookCorpus,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Booters,used,public,not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Bosch Night dataset,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Boston,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+BoT-IoT,used,public,labeled,realistic,attacker_related,attacks
+BoT-IoT,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Brazzers,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+breast,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Breast cancer,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+breast cancer patients dataset,used,restricted,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Breast-Cancer-Wisconsin(Original),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Breast tissues,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Brightkite,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Brinkhoff,created,Custom-created datasets but public,labeled,synthetic,macro_level_internet_characteristics,network_traces
+Browser Fingerprint Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+BTSR,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Bug benchmark,used,public,labeled,real-world,attacker_related,exploits
+BuggyCart,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,configurations
+C/C++ applications from Github,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+C/C++ OSS Collection and Java OSS Collection,used,public,"Custom-created datasets, not shared",real-world,macro_level_internet_characteristics,network_traces
+CADE,used,public,labeled,real-world,defender_artifacts,alerts
+Cadets,used,public,labeled,realistic,attacker_related,attacks
+CAIDA,used,public,not mentioned,real-world,macro_level_internet_characteristics,network_traces
+CAIDA 2016 anonymized data traces,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+CAIDA Ark dataset,used,public,labeled,real-world,macro_level_internet_characteristics,topology
+CAIDA AS Relationships,used,public,not mentioned,realistic,macro_level_internet_characteristics,topology
+CAIDA datasets,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+CAIDA inferred AS business relationship dataset,used,public,labeled,real-world,macro_level_internet_characteristics,topology
+CAIDA UCSD DDoS Attack 2007,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+Cal,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+California Muni dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+California public employee payroll data,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+California public pay pension database 2019,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Calpric Privacy Policy Corpus (CPPS),used,public,relabeled,real-world,user_and_organizational_characteristics,user_activities
+Caltech-256,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Campus dataset,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,attacks
+CamQuery,used,public,not mentioned,real-world,defender_artifacts,alerts
+CAN bus prototype,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+CAN traffic logs,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Carrier Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,alerts
+CASAS dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+CASIA-Webface,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Cassandra,created,"Custom-created datasets, not shared",unlabeled,real-world,attacker_related,vulnerabilities
+Cauchy,created,Custom-created datasets but public,not mentioned,synthetic,Others,others
+C Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+CDN Services IPs,used,public,not mentioned,realistic,attacker_related,cybercrime_infrastructures
+CelebA,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CelebA dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Cellular documents dataset,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,multimodal_datasets
+Censored Planet,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+censorship incidents,used,public,labeled,real-world,attacker_related,attacks
+Census,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Census19,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Census dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Census Income,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Censys,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Censys,used,public,labeled,real-world,attacker_related,vulnerabilities
+Censys,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Censys,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Censys Alexa 1M,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Censys Internet-wide IPv4 Scans,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+Censys TLS scan,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Censys web certificate dataset,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Center,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,network_traces
+Certificates in 88 public logs,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,attacks
+"Certificates of 6,000 selected Alexa Top-1M websites",created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,attacks
+Certificate Transparency,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+Certificate Transparency,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Certificate Transparency (CT) logs,used,public,not mentioned,realistic,macro_level_internet_characteristics,applications
+CFAD,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+CGC,used,public,labeled,real-world,Others,others
+CGC,used,public,labeled,realistic,attacker_related,exploits
+CGC data set,used,public,labeled,real-world,attacker_related,exploits
+ChaCha20,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,exploits
+ChatGPT Abstract,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ChestX-Ray8,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Chinese National Vulnerability Database (CNVD),used,public,labeled,real-world,attacker_related,vulnerabilities
+CH-MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ChokePoint,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+Chr20,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Chrome Extensions,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Chrome Extensions Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+Chrome Web Store Download Patterns,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Chrome Web Store Extensions,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+CI/CD Platforms IPs,used,public,not mentioned,realistic,attacker_related,cybercrime_infrastructures
+CIC-DDoS-2019,used,public,labeled,real-world,attacker_related,attacks
+CIC-DoS2017,used,public,labeled,real-world,attacker_related,attacks
+CICIDS2017,used,public,labeled,realistic,attacker_related,attacks
+CICIDS2017,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+CICIOT2022,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+CIC-MalMem-2022,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+CIFAR,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CIFAR-10,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CIFAR-100,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CIFAR-FS,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CINIC-10,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Citeseer,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Citizen Lab Block Test List,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+CleanMX virus watch,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Cleveland heart disease dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+ClickBench,created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+Client DOM reports,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,user_activities
+Client SSH keys â GitHub,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Climate,used,public,labeled,real-world,Others,others
+ClixSense,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Clixsense,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Close world multi-tab dataset,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Clothing,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+CMS public healthcare records,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+CMU_ARCTIC US English dataset,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+CMU PDA database,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+COAUTHOR,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Coauthor Physics,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+COCO,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+codrna,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+CollecTor,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Colorectal Histology MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+com-amazon,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Commercial reputation system (BL-A),used,proprietary,labeled,realistic,attacker_related,cybercrime_infrastructures
+Common Crawl,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Common Objects in Context (COCO),used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Common Voice,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+Company,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,adverse_events
+Compas,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Compound Liquidation Events,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Comprehensive data set spoken by a wide variety of speakers,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+comScore Web Behavior Database,used,proprietary,labeled,real-world,user_and_organizational_characteristics,user_activities
+Configuration instructions from 2061 TEIs,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Connecticut dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+contagio,used,public,labeled,real-world,attacker_related,exploits
+Contagio malware dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Controlled Dataset - Burst Detection,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Controlled Dataset - Statistical Probing,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Controlled lab experiments dataset,created,"Custom-created datasets, not shared",labeled,realistic,macro_level_internet_characteristics,network_traces
+Control Plane Logs,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+Cookie Glasses,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Cookinspect,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Cora,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Coreutils-8.30,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Corpus III,used,public,labeled,realistic,attacker_related,vulnerabilities
+"Corpus of 2,291,898 free Android apps from Google Play",used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Correlated Tor flows,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Counting filters,created,"Custom-created datasets, not shared",not mentioned,synthetic,attacker_related,exploits
+Count min-sketch,created,"Custom-created datasets, not shared",not mentioned,synthetic,attacker_related,exploits
+Course,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Covertype,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+covtype,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Crab,used,public,labeled,real-world,Others,others
+Crates.io Rust Crates,used,public,labeled,real-world,attacker_related,vulnerabilities
+Credential leaks,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Credential leak victims,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_attributes
+Credit,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Credit 1,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Credit 2,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Credit and Debit Cards,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Credit Approval,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Credit Card Fraud Detection,used,public,labeled,real-world,attacker_related,attacks
+Credit card transactions,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Credit Fraud,used,public,labeled,real-world,Others,others
+CrimeBB underground marketplaces dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Criteo,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Criteo dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Cross Platform,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Crowd-sourced Gesture Password Dataset,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+CryptDB,used,public,labeled,real-world,defender_artifacts,configurations
+Cryptojacking,used,public,labeled,real-world,attacker_related,exploits
+CS,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+CSDN,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+CSDN,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+CSE-CIC-IDS2018,used,public,labeled(via URL),realistic,attacker_related,attacks
+CSI,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+CTDD,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+CTU-13,used,public,labeled,realistic,attacker_related,attacks
+CUB-200-2011,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Curl-7.70,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Current Population Survey (CPS),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Custom Audience Data from Recruited Friends and Family,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_attributes
+Custom-created Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Custom dataset,created,"Custom-created datasets, not shared",Not Mentioned,real-world,visual_and_multimedia_data,audio_datasets
+Custom Internet telescope dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+Custom packed binaries,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,exploits
+CVE database,used,public,labeled,real-world,attacker_related,vulnerabilities
+CVE Dataset,created,"Custom-created datasets, not shared",Not mentioned,real-world,attacker_related,vulnerabilities
+CVE patches,used,public,labeled,real-world,attacker_related,vulnerabilities
+CVE patches dataset,used,public,labeled,real-world,attacker_related,vulnerabilities
+CVEs for Chromium,used,public,labeled,real-world,attacker_related,vulnerabilities
+CWE119,used,public,labeled,real-world,attacker_related,vulnerabilities
+CWE399,used,public,labeled,real-world,attacker_related,vulnerabilities
+CWE416,used,public,labeled,real-world,attacker_related,vulnerabilities
+D1,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+D1,created,"Custom-created datasets, not shared",labeled,real-world,defender_artifacts,alerts
+D1,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+D1,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+D2,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+D2,created,"Custom-created datasets, not shared",labeled,real-world,defender_artifacts,alerts
+D2,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+D2,used,public,not mentioned,realistic,user_and_organizational_characteristics,user_activities
+D3,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+D4,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+D5,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+D6,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Daily Dialogue,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+DAMD,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Dark IPs dataset,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+Darknet Data,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,attacks
+dark net markets (DNM) archive,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Dark web marketplace data,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+DARPA-Cadets,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Cyber Grand Challenge dataset,used,public,labeled,real-world,attacker_related,exploits
+DARPA-E3-CADETS,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-E3-ClearScope,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-E3-THEIA,used,public,labeled,synthetic,attacker_related,attacks
+DARPA E3 Trace,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-E5-CADETS,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-E5-ClearScope,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-E5-THEIA,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Intrusion Detection Data Sets,used,public,labeled,realistic,attacker_related,attacks
+Darpa-OpTC,used,public,labeled,hybrid,attacker_related,attacks
+DARPA TC dataset,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-Theia,used,public,labeled,synthetic,attacker_related,attacks
+DARPA-Trace,used,public,labeled,synthetic,attacker_related,attacks
+DARPA TRACE dataset,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Transparent Computing,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Transparent Computing (TC) program,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Transparent Computing dataset,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+DARPA Transparent Computing datasets,used,public,labeled,real-world,defender_artifacts,alerts
+DARPA Transparent Computing Engagement 3,used,public,labeled,synthetic,attacker_related,attacks
+DARPA Transparent Computing Engagement 4,used,public,not mentioned,synthetic,attacker_related,attacks
+DARPA Transparent Computing Program dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Data Exfiltration Malware (DEM),created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+Data on the Ethereum PGA economy,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Dataset #1,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Dataset #2,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Dataset #3,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Dataset #4,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Dataset 1 (DS1),created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Dataset 2 (DS2),created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Dataset 3 (DS3),created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Dataset by Mi et al. (2017),used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Dataset from F-Droid open source apps repository,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+"Dataset of 10,047 binaries from the Debian project",used,public,labeled,real-world,attacker_related,exploits
+Dataset of 10 screen filter apps,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+Dataset of 18 web applications,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Dataset of 20 people and 8 loudspeakers,created,Custom-created datasets but public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+Dataset of 454 apps requiring SYSTEM_ALERT_WINDOW permission,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+Dataset of 662 Android apps,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,malware
+Datasets for different vantage points,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,network_traces
+Datasets for multiple Tor Browser versions,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+Datasets for subpage browsing,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+Datasets for websites beyond Alexa-top 100,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+Datasets generated by real users,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+"Dataset with 29,088 regexes",created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Data-Sharing Dataset from Data-Saving Mobile Browsers,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+data total,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+Data traces from physical ICS systems,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+data training,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+Dattributes,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Dbase,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+DBLP,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+DBLP citation network,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+DCF set,created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+DD,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+DD,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Debian Popularity Contest,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Debian stable,used,public,labeled,real-world,attacker_related,vulnerabilities
+DECO Applications,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+DEEP 1B,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+DeepCorr dataset,created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+DeepDig,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+Defense datasets,created,"Custom-created datasets, not shared",Not Mentioned,realistic,defender_artifacts,alerts
+DeFi Incidents Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Desktop Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Developer Study Dataset,created,"Custom-created datasets, not shared",Not Mentioned,real-world,user_and_organizational_characteristics,user_activities
+Device Search Engine dataset,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+DF dataset,used,public,labeled,realistic,attacker_related,attacks
+DFRobot 6DOF Robotic Arm,used,public,labeled,real-world,attacker_related,vulnerabilities
+DGArchive,used,public,labeled,synthetic,macro_level_internet_characteristics,applications
+DG dataset,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,applications
+dhcp,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+DHT11,used,public,labeled,real-world,attacker_related,vulnerabilities
+diabetes,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Diagnosis Recommendation Workflow,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Diffutils-3.6,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+digits,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Direct Call Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+DISC21,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Disconnect list,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Disposable Email Dataset,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Distributed Database,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+Distributed K-means Workflow,created,Custom-created datasets but public,labeled,realistic,Others,others
+dnp3,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+DNS,used,public,unlabeled,real-world,macro_level_internet_characteristics,network_traces
+DNS Glue Record,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+DNS traffic dataset,used,restricted,unlabeled,realistic,user_and_organizational_characteristics,user_activities
+Document,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Dodonew,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Dodonew,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Domain owner ground truth,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+DoT certificates,used,public,labeled,real-world,defender_artifacts,configurations
+Dp,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Dp dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Dreal,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Drebin,used,public,labeled,real-world,attacker_related,malware
+Driving traces and publicly available city plans,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,network_traces
+DroidBench,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+DRSample,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Drug dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Drupal,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+DS-1,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+DS95,used,public,labeled,realistic,attacker_related,attacks
+Dsand,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+DS-Labeled,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+DSN Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+DS-Unknown,created,Custom-created datasets but public,not mentioned,realistic,macro_level_internet_characteristics,applications
+dYdX Liquidation Events,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Dynamic multi-tab datasets,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+E3-Theia,used,public,labeled,real-world,defender_artifacts,alerts
+E3-Trace,used,public,labeled,real-world,defender_artifacts,alerts
+E5-Theia,used,public,labeled,real-world,defender_artifacts,alerts
+E5-Trace,used,public,labeled,real-world,defender_artifacts,alerts
+ECHR,used,public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+E-commerce scam and benign e-shop dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+EDB,used,public,labeled,realistic,attacker_related,exploits
+EDC17 ECU Firmware Images,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+eduroam CAT profiles,used,public,labeled,real-world,defender_artifacts,configurations
+EHR dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+ElaadNL,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Elasticsearch,created,"Custom-created datasets, not shared",unlabeled,real-world,attacker_related,vulnerabilities
+ELF binaries,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,configurations
+Elliptic Bitcoin Dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Elliptic dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Email dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Email Importance,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+EMBER,used,public,labeled,real-world,attacker_related, malware
+EMBER,used,public,labeled,real-world,attacker_related,exploits
+Ember,used,public,labeled,real-world,attacker_related,malware
+Empire Market,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+End-User Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+English Wikipedia,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+English words dataset,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Enron,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Enron,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Enron dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Enron email corpus,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Enron email dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Enron email network,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Enterprise-to-IP Mapping,used,proprietary,not mentioned,realistic,macro_level_internet_characteristics,applications
+EP1,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+EP2,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Epinions,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Escaped Sub-app APIs,created,Custom-created datasets but public,labeled,realistic,attacker_related,exploits
+Estonian ID cards,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Ethereum Blockchain Data,used,public,labeled,real-world,attacker_related,exploits
+Ethereum blockchain data,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Ethereum PGA data,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Ethereum Smart Contracts,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+Ethereum transactions,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Ethernodes,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+ETH price data,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+EUI-64 IPv6 corpus,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+European cardholder transactions,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+European RTBF requests,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,applications
+Evaluation Dataset,created,Custom-created datasets but public,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+EVCMS,created,"Custom-created datasets, not shared",Not Mentioned,real-world,attacker_related,vulnerabilities
+Event traces from the Fischertechnik testbed,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Event traces from the SMART testbed,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+EVM test suite,used,public,labeled,real-world,defender_artifacts,alerts
+"Execution Traces from sshd, libpcre, and sendmail",created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+Exim,used,public,labeled,realistic,attacker_related,vulnerabilities
+Expired Domains,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Exploit Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Exploit Kit Sources,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Exploit Kit Sources Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Ext 1,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+Ext 2,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+EXT-DS,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Extended MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Extended MRPC,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Eye Movement Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Face,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Facebook,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Facebook,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Facebook,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Facebook,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Facebook data set,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Facebook social network graph,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+FaceScrub,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Facial Photos Dataset,created,"Custom-created datasets, not shared",labeled,real-world,visual_and_multimedia_data,image_datasets
+FairFace,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Fare,used,restricted,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Farsight's DNSDB,used,public,unlabeled,real-world,macro_level_internet_characteristics,network_traces
+Fashion,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Fashion-MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+FDroid Apps,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+Federated-MNIST,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+FEMNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Fertility,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+File Appearance Logs,used,proprietary,labeled,real-world,defender_artifacts,alerts
+Fileless Malware dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,malware
+File Reputation Logs,used,proprietary,labeled,real-world,defender_artifacts,alerts
+Filtered CIFAR-100,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Filtered IP Whois dataset,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+"Final Dataset of 98,598 Fingerprints",created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Financial,used,public,labeled,synthetic,macro_level_internet_characteristics,adverse_events
+Findutils-4.7.0,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+finger-vein dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Firefox Extensions Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+Firmware collected using mobile app based approach,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Firmware image dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+Firmware Scanner,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+First-time editors edits to English Wikipedia,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+FiveDirections,used,public,labeled,realistic,attacker_related,attacks
+FiveThirtyEight's How Americans Like Their Steak survey,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Flickr,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Flickr8k,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+FlightAware,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Florida dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Florida Department of Agriculture and Consumer Services Skimmer Reports,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+FMNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Food101,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Force Sensor DYTB-002,used,public,labeled,real-world,attacker_related,vulnerabilities
+Forest Covertype,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Forest Cover Type,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Fork Sentry Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+FourSquare,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Foursquare Check-in Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Foursquare Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Foursquare location-based social network dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Foursquare Location Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Fraternal Order of Police dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Fraudulent e-Commerce Websites (FCWs),created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+freeapp,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+FreeRTOS Applications,used,public,labeled,real-world,defender_artifacts,configurations
+FrodoKEM,used,public,labeled,realistic,attacker_related,exploits
+FSet,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+FTP,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Fulaite 05 Electric Valve,used,public,labeled,real-world,attacker_related,vulnerabilities
+Function Sheets for EDC17 ECU,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Futaba S9602,used,public,labeled,real-world,attacker_related,vulnerabilities
+Fuzz,used,restricted,not mentioned,realistic,attacker_related,exploits
+FuzzBench,used,public,labeled,real-world,Others,others
+Fuzzer Test Suite,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+FW1,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+FW2,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+FW3,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+G1,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Gambling Scam Apps,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,applications
+Ganji Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+gas,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+gas sensor data,used,public,labeled,real-world,Others,others
+Gaussian,created,Custom-created datasets but public,not mentioned,synthetic,Others,others
+GDSII layout files,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,configurations
+GeeksOnSecurity malicious JavaScript dataset,used,public,labeled,real-world,attacker_related,malware
+General Datasets for Learning MAIE,created,Custom-created datasets but public,labeled,realistic,attacker_related,malware
+General Social Survey (GSS),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Geneva Censorship Evasion Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Genome-Wide Analysis Studies (GWAS),used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Genome-Wide Association Studies (GWAS),created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Genomic Data,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Genomic Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Geolife,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Geolife Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Georgia Tech,used,public,labeled,real-world,attacker_related,malware
+German credit,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+German credit card dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+German Credit Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Gesture Password Dataset,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+GH,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Ginseng,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+Gisette,used,public,labeled,synthetic,user_and_organizational_characteristics,user_activities
+Gisette,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+GIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+GitHub dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+GitHub Repositories Sample,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+GitLab HTTP trace dataset,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+GL,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Globe,used,public,unlabeled,synthetic,macro_level_internet_characteristics,network_traces
+GM,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Gmail Ads Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+GNU Binutils,used,public,not mentioned,real-world,attacker_related,vulnerabilities
+GNU Binutils,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Gnutella peer-to-peer file sharing network,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Google's Certificate Transparency logs,used,public,labeled,real-world,defender_artifacts,alerts
+Google's Safe Browsing list,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Google+,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Google+ dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google-30,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google Assistant Actions,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Google Code Jam (GCJ),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google FuzzBench,used,public,labeled,real-world,attacker_related,exploits
+Google Fuzzer Test Suite,used,public,labeled,real-world,attacker_related,exploits
+Google Fuzzer Test Suite (GFTS),used,public,labeled,real-world,attacker_related,exploits
+Google Open Images Dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Google Play,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google Play accounts,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Google Play apps,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,configurations
+Google Play Apps,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google Play Apps dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Google Play dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Google Play fraud-related data,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Google Play Store marketplace data,used,public,labeled,real-world,defender_artifacts,alerts
+Google VTS,used,public,labeled,real-world,defender_artifacts,alerts
+GOSHAWK,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Gowalla,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Gowalla dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+GPC,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+gplus,used,public,relabeled,real-world,user_and_organizational_characteristics,user_activities
+GPS position logs,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Ground Truth (GT1),created,"Custom-created datasets, not shared",labeled,realistic,defender_artifacts,alerts
+Ground Truth (GT2),created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+Ground truth attributed user accounts,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Ground-truth dataset of e-commerce scams,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Ground truth labeled sets from Alexa and top hosting providers,used,public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+Ground Truth Node Labels,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+Group,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+GSE61741,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+GSS Survey,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+GTSRB,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Habitica,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+HackerOne,used,public,labeled,real-world,attacker_related,vulnerabilities
+Hajime,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+HAM10000,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+HapMap,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Hardware Performance Counters,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,cybercrime_infrastructures
+hazardous materials datasets,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+HC3,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+HCUP Nationwide Inpatient Sample,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+HCUP Nationwide Inpatient Sample,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+HCUP Nationwide Inpatient Sample (NIS),used,restricted,labeled,real-world,user_and_organizational_characteristics,user_attributes
+HDFS,used,public,labeled,realistic,defender_artifacts,alerts
+HDFS-1,used,public,labeled,realistic,defender_artifacts,alerts
+HDFS-2,used,public,labeled,realistic,defender_artifacts,alerts
+HDFS log,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+HDFS log dataset,used,public,labeled,real-world,defender_artifacts,alerts
+Healthcare Cost and Utilization Project (HCUP),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Healthcare Cost and Utilization Project (HCUP) Nationwide Inpatient Sample (NIS),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Health care dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+heart,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Heart Disease,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Helios voting system,used,public,labeled,real-world,defender_artifacts,alerts
+HepPh,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+HIBP,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Hidost,used,public,labeled,real-world,attacker_related,malware
+Hidost training dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Higgs,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Historical Dataset of Extensions,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+HMDB-51,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+HOME,created,Custom-created datasets but public,labeled,realistic,user_and_organizational_characteristics,user_activities
+HoneyPLC,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,adverse_events
+Honeypot call logs,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+HotCRP,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+House pricing dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+housing,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+HS3D,used,public,labeled,realistic,attacker_related,exploits
+HSet,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+HTTPS Certificate Ecosystem,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+HTTPS certificates,used,public,labeled,real-world,defender_artifacts,configurations
+HTTP traffic dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Huawei JavaScript malware samples,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+Human Abstract,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Human Activity Recognition (HAR),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Human Activity Recognition Using Smartphones,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Hynek Petrak JavaScript malware collection,used,public,labeled,real-world,attacker_related,malware
+I,created,Custom-created datasets but public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+IACR Cryptology ePrint Archive,used,public,not mentioned,real-world,user_and_organizational_characteristics,user_activities
+ICLab Measurements,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+ICMP,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+ICS experiment scenarios,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Idle Dataset,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+IdM,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,attacks
+IDS1,used,public,labeled,real-world,attacker_related,attacks
+IDS2,used,public,labeled,real-world,attacker_related,attacks
+IDS2018,used,public,labeled,real-world,attacker_related,attacks
+IDS2018,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+IDS3,used,public,labeled,real-world,attacker_related,attacks
+IDS4,used,public,labeled,real-world,attacker_related,attacks
+IDS5,used,public,labeled,real-world,attacker_related,attacks
+IDS6,used,public,labeled,real-world,attacker_related,attacks
+IDS7,used,public,labeled,real-world,attacker_related,attacks
+IDS8,used,public,labeled,real-world,attacker_related,attacks
+IEEE 14 bus power transmission system model,used,public,not mentioned,realistic,macro_level_internet_characteristics,topology
+IFTTT applets dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IFTTT dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IFTTT trigger-action platform apps,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IIPROTEINS_full,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Illinois dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ILSVRC2015,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ImageNet,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ImageNet-1k,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ImageNette,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+IMDb,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IMDB Reviews,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IND,used,proprietary,not mentioned,realistic,user_and_organizational_characteristics,user_attributes
+Indirect Call Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Industrial-72,used,restricted,not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Industry Arena dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+Inertial Sensor Data,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+in-home activity dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+In-Lab Dataset,created,Custom-created datasets but public,labeled,realistic,user_and_organizational_characteristics,user_activities
+InsecureBankv2,used,public,labeled,real-world,attacker_related,exploits
+Instagram Check-in Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Instagram New-York,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Insta-NY,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Insurance,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Internet Archive,used,public,not mentioned,realistic,macro_level_internet_characteristics,applications
+InterTubes,used,public,labeled,real-world,macro_level_internet_characteristics,topology
+In-vehicle CAN bus voltage dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+IoT1,used,public,labeled,real-world,attacker_related,attacks
+IoT2,used,public,labeled,real-world,attacker_related,attacks
+IoT3,used,public,labeled,real-world,attacker_related,attacks
+IoT4,used,public,labeled,real-world,attacker_related,attacks
+IoT5,used,public,labeled,real-world,attacker_related,attacks
+IoT6,used,public,labeled,real-world,attacker_related,attacks
+IoT7,used,public,labeled,real-world,attacker_related,attacks
+IoT8,used,public,labeled,real-world,attacker_related,attacks
+IoT Botnets dataset,created,"Custom-created datasets, not shared",unlabeled,realistic,attacker_related,cybercrime_infrastructures
+Iot cryptojacking,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+IoT devices,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IoT Devices Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+IoT firmware,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+IoT intrusion detection,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+IoT Network Intrusion Dataset,used,public,labeled,realistic,attacker_related,attacks
+IoT Product Entities,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+IoTrim,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+IoT Traffic Classification,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Iowa dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+IP and Domain Blacklists,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+IP editors edits to English Wikipedia,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+IP geolocation dataset,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+IPS-relevant apps dataset,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+IPWHOIS,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+Iris,used,public,labeled,realistic,Others,others
+IRS Tax Pattern,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+ISCXVPN2016,used,public,labeled,real-world,attacker_related,attacks
+ISCX VPN-nonVPN dataset,used,public,labeled,realistic,attacker_related,attacks
+ISIC-2016,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ISIC Archive,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ISP1,used,proprietary,labeled,real-world,attacker_related,cybercrime_infrastructures
+ISP2,used,proprietary,labeled,real-world,attacker_related,cybercrime_infrastructures
+ISP3,used,proprietary,labeled,real-world,attacker_related,cybercrime_infrastructures
+Java,used,public,labeled,real-world,attacker_related,vulnerabilities
+Java Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+JavaScript files,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+JavaScript Samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+JData,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Joomla,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+JPEG files,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+JS150k,used,public,labeled,real-world,attacker_related,malware
+Kaggle's Acquire Valued Shoppers Challenge,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Kaggle SMS,used,public,labeled,real-world,attacker_related,attacks
+kChat,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+KDDCup99,used,public,labeled,real-world,attacker_related,attacks
+Kelihos,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+KEMTLS Software and Data,created,Custom-created datasets but public,Not Mentioned,realistic,defender_artifacts,configurations
+Kernel Images Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Keyloggers,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+Keylogger victim reports,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Keylogger victims,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_attributes
+Keystroke Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Kitsune,used,public,labeled,real-world,attacker_related,attacks
+Kitti dataset,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Known Vulnerabilities Dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+Kosarak,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Kosarak dataset,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+kron,used,public,relabeled,synthetic,macro_level_internet_characteristics,network_traces
+Kyber,used,public,labeled,realistic,attacker_related,exploits
+Kyoto 2006+ dataset,used,public,labeled,real-world,attacker_related,attacks
+Labeled Dataset for Source-Code-to-Binary-Code Matching,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+Labeled Dataset from AV Company,used,restricted,labeled,realistic,attacker_related,malware
+"labeled dataset of 94,946 URLs",created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Labeled Faces in the Wild (LFW),used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+LAION dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Language identification dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+LANL,used,public,labeled,real-world,defender_artifacts,alerts
+LANL-CMSCSE dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+LANL network lateral movement dataset,used,public,labeled,real-world,attacker_related,attacks
+Laplacian,created,Custom-created datasets but public,not mentioned,synthetic,Others,others
+LastFM,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Lastfm-2k (lf-2k),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+LASTLINE,used,public,labeled,real-world,attacker_related,vulnerabilities
+Latency Measurements Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+LAVA-M,used,public,labeled,realistic,attacker_related,exploits
+LA V A-M,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+LA V A-M dataset,used,public,labeled,real-world,attacker_related,exploits
+Lawschool,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+LEB,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Legal URL dataset,used,public,labeled,real-world,attacker_related,vulnerabilities
+Lending Club,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+LevelDB,used,public,not mentioned,realistic,defender_artifacts,configurations
+LFW,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+libdbus,used,public,labeled,real-world,defender_artifacts,alerts
+Libmicrohttpd-0.9.75,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+libpcap,used,public,labeled,real-world,defender_artifacts,alerts
+LibriSpeech,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+libxml2,used,public,labeled,real-world,defender_artifacts,alerts
+LinkedIn,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+LinkedIn password leak,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Linux Debug Symbol Packages,used,public,labeled,real-world,defender_artifacts,configurations
+Linux kernel,used,public,not mentioned,real-world,attacker_related,vulnerabilities
+Linux Kernel,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+Linux kernel 5.19,used,public,not mentioned,real-world,attacker_related,vulnerabilities
+Linux Malware Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+LISA,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Live Simulation Shoulder Surfing Dataset,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,video_datasets
+LLVM 14 Programs,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+LLVM clang 15.0.1,used,public,not mentioned,real-world,defender_artifacts,configurations
+LLVM test-suite,used,public,not mentioned,real-world,defender_artifacts,configurations
+Load and generation profiles,used,public,not mentioned,realistic,macro_level_internet_characteristics,applications
+Loan,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Loan dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Location,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Location-30,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Location Data,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Locky,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Logistic Regression Dataset,created,"Custom-created datasets, not shared",labeled,synthetic,defender_artifacts,alerts
+Log Replay Data Set (LRDS),created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Loki dataset,used,public,labeled,real-world,attacker_related,exploits
+Lumen Traffic Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Lung Cancer Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Machine learning training dataset for app classification,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Magma,used,public,labeled,real-world,Others,others
+Majestic Million,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+MakerDAO,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+MAL,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+Malicious and Benign Apps Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+malicious apps,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Malicious Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Malicious evaluation dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,attacks
+Malicious Extensions Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+Malicious JavaScript data,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+Malicious JavaScript dataset,used,public,labeled,real-world,attacker_related,attacks
+Malicious Samples,used,public,labeled,real-world,attacker_related,malware
+Malicious URL Detection,used,public,labeled,real-world,attacker_related,attacks
+MalShare,used,public,labeled,real-world,attacker_related,malware
+malware,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Malware Binaries with Cryptographic Functions,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,exploits
+Malware Download Paths,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+Malware Executions,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,malware
+Malware Feeds,used,proprietary,labeled,realistic,attacker_related,cybercrime_infrastructures
+Malware Hashes Dataset,used,restricted,labeled,realistic,attacker_related,malware
+Malware Samples,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Malware samples from VirusShare and VirusSign,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+Mammography,used,public,labeled,real-world,Others,others
+Mango,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Manufacturer Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,alerts
+Manufacturing Certificates,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+Manzoor et al.,used,public,labeled,realistic,attacker_related,attacks
+Maritime VSAT recordings,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+Maryland dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+mavlink,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+MAWILab,used,public,labeled,realistic,attacker_related,attacks
+MAWILab,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+MAWI Working Group Traffic Archive,used,public,not mentioned,real-world,macro_level_internet_characteristics,network_traces
+MBA-Solver dataset,used,public,labeled,real-world,attacker_related,exploits
+MCU Firmware Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Measurement data,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+MedicalDB,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Memcached,used,public,not mentioned,real-world,attacker_related,attacks
+Memory Corruption Vulnerabilities Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+Memory Dumps,created,Custom-created datasets but public,labeled,realistic,attacker_related,exploits
+Mempool data,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+meQTL-methylation dataset,used,restricted,not mentioned,realistic,user_and_organizational_characteristics,user_attributes
+Meteorological data,used,public,labeled,real-world,macro_level_internet_characteristics,adverse_events
+Metsis Email Dataset,used,public,labeled,real-world,attacker_related,attacks
+MFF-based Attack Data,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+MiBench,used,public,labeled,real-world,Others,others
+MiBench,used,public,labeled,real-world,defender_artifacts,configurations
+Microsoft Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Microsoft COCO,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+million song dataset,used,public,labeled,real-world,Others,others
+MIMIC-III,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+MIMIC-III,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Mimicus,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+Miner revenue data,used,public,labeled,real-world,Others,others
+Mini-ImageNet,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Mirai,used,public,labeled,realistic,attacker_related,attacks
+Mirai,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Mirai Botnet,used,public,labeled,realistic,attacker_related,attacks
+Mirai dataset,used,public,labeled(via URL),real-world,attacker_related,cybercrime_infrastructures
+MJS,used,public,not mentioned,real-world,attacker_related,vulnerabilities
+MLens,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+MNIST Sequence,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Mobile Browsers Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Mobile Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Mobile device feature set,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Mobile Gambling Scam Incident Reports,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Mobile-IoT Apps Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Mobile-Sandbox,used,public,labeled,real-world,attacker_related,malware
+MobiPurpose,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+modbus,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+MongoDB,created,"Custom-created datasets, not shared",unlabeled,real-world,attacker_related,vulnerabilities
+mORAL,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MotionSense,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Movielens,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MovieLens 100K,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Movielens-1m (ml-1m),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MovieLens 1M ratings dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MovieLens dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Movie Reviews dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Movies,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MS COCO,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+MSCOCO 2017,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+MSet,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+mtools-4.0.36,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+MTurk Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+MUDscope IoT dataset,created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+Multi-tab browsing dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Multi-touch authentication dataset,created,"Custom-created datasets, not shared",labeled,realistic,visual_and_multimedia_data,multimodal_datasets
+MyCompany,used,restricted,not-mentioned,real-world,user_and_organizational_characteristics,user_attributes
+myspace,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+National Indonesia Contraceptive Survey,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+National Inpatient Sample (NIS),used,restricted,labeled,real-world,user_and_organizational_characteristics,user_attributes
+National Sleep Foundation 2011 dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+National Vulnerability Database (NVD),used,public,labeled,real-world,attacker_related,vulnerabilities
+NativeFlowBench,created,Custom-created datasets but public,labeled,synthetic,attacker_related,malware
+naval,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Neopets,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Netflix,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Netflix dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Netflix Prize,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Netflix Prize Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+netML IoT,used,public,labeled,real-world,attacker_related,attacks
+netML Non-VPN,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Network-Based Infection Data,used,restricted,labeled,realistic,attacker_related,cybercrime_infrastructures
+Network Device Dataset,used,public,labeled,real-world,attacker_related,attacks
+Network Security Logs,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,Alerts
+Network traces,used,public,not mentioned,real-world,macro_level_internet_characteristics,network_traces
+Network traffic dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+Network traffic dataset,created,"Custom-created datasets, not shared",labeled,hybrid,macro_level_internet_characteristics,network_traces
+Network traffic from a water distribution plant,created,"Custom-created datasets, not shared",Not Mentioned,real-world,macro_level_internet_characteristics,network_traces
+New Jersey dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+New York 2013 Taxi Rides,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+"Next 80,000 pages on Alexa",created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+NFV testbed datasets,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+NIST Juliet C/C++ test suite,used,public,labeled,realistic,attacker_related,vulnerabilities
+NLDN data,used,public,labeled,real-world,macro_level_internet_characteristics,adverse_events
+Nokia Lausanne Data Collection Campaign,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+nomao,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+non-stripped binaries,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,configurations
+Ours Normal Attack Dataset,used,public,labeled,realistic,attacker_related,attacks
+North Carolina dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+North Carolina Voter Records,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+NSL-KDD,used,public,labeled,realistic,attacker_related,attacks
+NSL-KDD,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+ntp,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+Nugache,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Nulled database,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Nursery,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+NVD,used,public,labeled,real-world,attacker_related,vulnerabilities
+NYC salaries (2018),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+O**** tool dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,exploits
+Obfuscated Cryptographic Function Dataset,created,"Custom-created datasets, not shared",labeled,real-world,defender_artifacts,configurations
+occupancy,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Offensive Security Exploit Database,used,public,labeled,real-world,attacker_related,exploits
+Off-the-shelf packers,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,exploits
+OGB-Arxiv,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+ogbg-code,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbg-molpcba,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbg-ppa,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbl-citation2,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbl-wikikg2,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbn-papers100M,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ogbn-products,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Ohio dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Olden,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Olivetti Research Laboratory Images,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Omniglot,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Oniguruma,used,public,not mentioned,real-world,attacker_related,vulnerabilities
+Online,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+OnlineNewsPopularity,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Online Probing Dataset,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Online retail data set,used,public,labeled,real-world,Others,others
+ONOS SDN Controller Apps,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Open dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Open Images Dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Open Proxy List,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+OpenSky,used,public,labeled,real-world,attacker_related,attacks
+Opensky,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+OpenSSH 7.9,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,exploits
+OpenSSL,used,public,labeled,real-world,attacker_related,vulnerabilities
+OpenSSL,used,public,labeled,real-world,defender_artifacts,configurations
+OpenSSL,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+OpenSSL-1.1.1l,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+OpenStack log dataset,used,public,labeled,real-world,defender_artifacts,alerts
+OpenStreetMap,used,public,labeled,real-world,macro_level_internet_characteristics,topology
+OpenStreetMap road network,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+Open world multi-tab dataset,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+OpenWPM,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+OpenWPM-Mobile,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Opera Extensions,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Opera Extensions Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+OPP-115,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+OPTEE TAs,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,vulnerabilities
+Opt-out cookie dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Opt-out policy corpus,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attitudes
+OR1200 CPU,used,public,not mentioned,real-world,defender_artifacts,configurations
+Organization Dataset (OD),created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+osCommerce,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+OS events dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,defender_artifacts,alerts
+OSPIR-OXT,used,public,labeled,real-world,defender_artifacts,alerts
+OSS-Fuzz,used,public,labeled,real-world,attacker_related,vulnerabilities
+OSSP ATCHER Evaluation Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+OSVDB,used,public,labeled,realistic,attacker_related,vulnerabilities
+OTA-DS,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Ours Normal Attack Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+OV,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,attacks
+Ovarian,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+OVCAR-8H,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+OVCAR-8H,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+P,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Packages from six popular software registries,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+Painting-91,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Palo Alto Networks dataset,used,proprietary,labeled,real-world,defender_artifacts,alerts
+Papasavva dataset,used,public,not mentioned,realistic,visual_and_multimedia_data,multimodal_datasets
+Passive DNS,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Passive DNS,used,restricted,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Passive DNS data,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Passive DNS dataset,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+Passive DNS dataset,used,restricted,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Passive TLS Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+PatchDB,used,public,labeled,real-world,attacker_related,vulnerabilities
+Pband,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+PciCheckerLite,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+PDF malware dataset,used,public,labeled,real-world,attacker_related,malware
+PDF malware samples,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+PDFrate training dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+PeerRush,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Penn Treebank,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+PersonaChat,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Personal Genome Project (PGP),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+"Peter Norvig�s 300,000 most frequent n-grams",used,public,labeled,real-world,macro_level_internet_characteristics,applications
+PGS,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Phishing,used,public,labeled,real-world,attacker_related,attacks
+Phishing,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Phishing kits,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+Phishing Kits Dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Phishing kit victims,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_attributes
+Phishing victim reports,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+phpBB,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+phpbb,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Physics,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Physionet EEG Motor Movement/Imagery Dataset,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+Pidgin,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+Pima Indians Diabetes Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+PIPA,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Pivoting,used,public,labeled,realistic,attacker_related,attacks
+Places100,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Places20,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Places365,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Places50,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+PlayDrone dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+pld,used,public,relabeled,real-world,macro_level_internet_characteristics,applications
+Pnetwork,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+PNG files,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Pokec,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Pokec,used,public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+Polblog,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Poly1305,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,exploits
+Poppler,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+Portocabs Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+POS,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+PostgreSQL,used,public,not mentioned,real-world,attacker_related,attacks
+PPI,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+PPI,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+PrestaShop,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+Pretty Good Privacy (PGP),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Privacy Methods Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_attitudes
+Privacy Policies of Android Apps,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+Privacy policy ground truth,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_attributes
+PrivCount measurement data,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Production dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,defender_artifacts,alerts
+PROTEINS_full,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Provenance dataset from an enterprise network,created,"Custom-created datasets, not shared",labeled,real-world,defender_artifacts,alerts
+PS-1,created,Custom-created datasets but public,not mentioned,realistic,defender_artifacts,configurations
+PS-2,created,Custom-created datasets but public,not mentioned,synthetic,defender_artifacts,configurations
+Pservice,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+PubFig,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+public adult income dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Public Arena dataset,used,public,labeled,realistic,attacker_related,attacks
+Public Blacklists,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Public Dataset,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Public dataset,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+public dataset by Ghasemisharif et al.,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Public DNS records,used,public,unlabeled,real-world,macro_level_internet_characteristics,network_traces
+Public Keystroke Datasets,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Publicly available dataset for keystroke timing attacks,used,public,labeled,real-world,attacker_related,attacks
+Publicly released real-world incident reports,used,public,labeled,real-world,attacker_related,attacks
+Public proxies dataset,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+Public Repositories,used,public,labeled,real-world,attacker_related,vulnerabilities
+Public Use Microdata Sample from US Census 2018,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+PublicWWW,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Pubmed,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+PubMed citation network,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+pulsar,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Punstrip dataset,used,public,labeled,real-world,attacker_related,exploits
+Pupdate,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,network_traces
+PUP traffic dataset,used,proprietary,labeled,realistic,attacker_related,cybercrime_infrastructures
+Purchase,created,Custom-created datasets but public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Purchase,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Purchase100,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+PurPliance Privacy Policy Corpus,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Pushshift public archives,used,public,unlabeled,realistic,user_and_organizational_characteristics,user_activities
+putty-0.74,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+QNB,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+QNLI,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+QSynth dataset,used,public,labeled,real-world,attacker_related,exploits
+Random English Emails,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Randomly Generated Text,created,"Custom-created datasets, not shared",not mentioned,synthetic,user_and_organizational_characteristics,user_activities
+Randomly Permuted (RP) Taxi pickup time dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Ransomware (RAN),created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+Ransomware binaries,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,malware
+Ransomware clusters,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Ransomware payment data,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+ransomware samples,used,public,labeled,real-world,attacker_related,attacks
+Ransomware telemetry data,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Rapid7 Sonar SSL,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+RBAC datasets,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+RCV1,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+real attacks dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,attacks
+Real dataset of logins,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+real-life fingerprint dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+real network traces provided by a major ISP,used,restricted,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+Real-sim,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Realtime Dataset,used,public,labeled,real-world,attacker_related,attacks
+Real-world Android apps,created,"Custom-created datasets, not shared",Not Mentioned,realistic,macro_level_internet_characteristics,applications
+Real-world auditing systems log traces,created,"Custom-created datasets, not shared",Not Mentioned,real-world,defender_artifacts,alerts
+Real world call logs,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Real-world contracts from Ethereum blockchain,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Real-World Data,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Real-World Dataset,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Real-world data set,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Real world dataset from a live power substation,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+Real-world Google Play apps,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+real-world medical data sets,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Real world multi-tab dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Real-world Node.js packages,used,public,labeled,real-world,attacker_related,vulnerabilities
+real-world RBAC datasets,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_attributes
+real-world security incidents,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+Real-world Wi-Fi networks,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,network_traces
+ReCAN,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Reddit,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Reddit comments,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Reddit online discussion forum,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Reddit Pushshift,used,public,unlabeled,realistic,user_and_organizational_characteristics,user_activities
+Redis,created,"Custom-created datasets, not shared",unlabeled,real-world,attacker_related,vulnerabilities
+regexes,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+Registered editors edits to English Wikipedia,created,"Custom-created datasets, not shared",not mentioned,real-world,user_and_organizational_characteristics,user_activities
+ReMASC,used,public,labeled,realistic,visual_and_multimedia_data,audio_datasets
+Renting,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Repository Snapshots for Code Scanning,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+Reputation and Installation Logs,used,proprietary,not mentioned,realistic,macro_level_internet_characteristics,applications
+Reputation Logs,used,proprietary,not mentioned,real-world,attacker_related,cybercrime_infrastructures
+Residential Proxy List,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+RESIP IP dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+RetroWrite benchmarks,used,public,labeled,real-world,attacker_related,exploits
+RevBugBench,used,public,labeled,real-world,Others,others
+Reverse DNS,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+REWEMA,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+R-ImageNet,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Rimmer's dataset,used,public,labeled,realistic,attacker_related,attacks
+RIoTPot Attack Dataset,created,"Custom-created datasets, but restricted",labeled,realistic,attacker_related,attacks
+RIPE Atlas,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+RIPE Atlas ping measurement data,used,public,labeled,real-world,macro_level_internet_characteristics,benchmarks
+RIPE RIS,used,public,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+RISC-V CPU,used,public,not mentioned,real-world,defender_artifacts,configurations
+Risk Dataset,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+RoadnetTX,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+RockYou,used,public,unlabeled,real-world,attacker_related,attacks
+Rockyou,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Rockyou,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+RockYou database,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Rodinia Benchmark,used,public,labeled,realistic,attacker_related,exploits
+ROKSO list from Spamhaus,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Rootkit,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Rootkit,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Rotten Tomatoes,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Rotten Tomatoes Movie Review,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Rotten Tomatoes movie review dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attitudes
+RouteViews,used,public,not mentioned,realistic,macro_level_internet_characteristics,network_traces
+RScouter,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+RuMarket,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,exploits
+RWDIDS,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+RWM,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+S,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Salaries,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Sality,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Samsung firmware apps,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,configurations
+SANCTUARY,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+Sancus V,created,Custom-created datasets but public,labeled,realistic,attacker_related,exploits
+San Francisco Bay area GPS trajectories,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SARD,used,public,labeled,real-world,attacker_related,vulnerabilities
+SC,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Scalability benchmark,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+SCARF,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+SCUT Head dataset,used,restricted,not mentioned,realistic,visual_and_multimedia_data,image_datasets
+SD09,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+sd1,used,public,relabeled,real-world,macro_level_internet_characteristics,applications
+SEC case files,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Secure Water Treatment (SWaT),used,public,labeled,real-world,attacker_related,attacks
+Security Anomaly Detection,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+Security Behavior Observatory (SBO),created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+SECURITY NET,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Security Patches Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+" seed disk images of eight popular file systems (ext4, XFS, Btrfs, F2FS, GFS2, HFS+, ReiserFS, and VFAT)",created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+Self-collected multi-channel audio attack dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,visual_and_multimedia_data,audio_datasets
+Self-scraped dataset,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+SEM images,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Sexuality dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SF,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,attacks
+SF salaries (2018),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Shodan,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Shodan,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Shoulder Surfing Video Simulation Dataset,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,video_datasets
+SIFT,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+significantly larger dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+Silk Road 1,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Silk Road 2,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Silk Road 3,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+SIM1-1,used,public,labeled,synthetic,attacker_related,attacks
+SIM1-2,used,public,labeled,synthetic,attacker_related,attacks
+SIM1-3,used,public,labeled,synthetic,attacker_related,attacks
+Simulated dataset,created,Custom-created datasets but public,labeled,synthetic,attacker_related,attacks
+Simulation dataset,created,"Custom-created datasets, not shared",Not Mentioned,synthetic,defender_artifacts,alerts
+Sina Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+SisoSPIR,used,public,labeled,real-world,defender_artifacts,alerts
+Sites gamble,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+Sites promotion,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+skin,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Skin Cancer MNIST,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Skytrax dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SmarPer Permission Decisions Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Smart Home Event Verification Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Smart Meter Electricity Trial data in Ireland,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SmartThings IoT apps,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+smb,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+smb2,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+SMS Delivery Report Timing Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
+SMS Gateway Dataset,created,"Custom-created datasets, not shared",labeled,real-world,macro_level_internet_characteristics,applications
+SNS,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,attacks
+SOCBED evaluation code and dataset,used,public,labeled,realistic,defender_artifacts,alerts
+SOCBED log dataset,used,public,labeled,realistic,defender_artifacts,alerts
+soc-BlogCatalog,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+SOC-Friendster,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Social Network Data,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+soc-LiveJournal1,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SODA,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+Song,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+SOREL-20M,used,public,labeled,real-world,attacker_related,exploits
+SOWPODS,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+spam,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Spambase,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+spambase,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Spam Dataset,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Spamhaus DBL,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Spamhaus Edrop list,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Spam Trap,used,proprietary,labeled,realistic,attacker_related,cybercrime_infrastructures
+SPEC 2000,used,public,not mentioned,realistic,Others,others
+SPEC 2006,used,public,not mentioned,realistic,Others,others
+SPEC CINT2000,used,public,labeled,realistic,Others,others
+SPEC CINT2006,used,public,labeled,realistic,Others,others
+SPEC CPU2006,used,public,labeled,real-world,attacker_related,vulnerabilities
+SpeechAccent,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+SpeechCommand,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+SpeechCommands,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+Speedtest,used,public,labeled,real-world,macro_level_internet_characteristics,benchmarks
+SPI-DB,used,public,labeled,real-world,attacker_related,vulnerabilities
+SPIDER,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Spider Pool Pages,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Spitz,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SpitzLoc,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+SpitzLoc,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+SpitzTime,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+spoken digit dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,visual_and_multimedia_data,audio_datasets
+Spoofer Project,used,public,labeled,real-world,attacker_related,attacks
+SQLite,used,public,labeled,real-world,defender_artifacts,configurations
+sqlite-3.37.1,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+SQL Query Dataset,created,"Custom-created datasets, not shared",Not Mentioned,realistic,user_and_organizational_characteristics,user_activities
+SSL certificates,used,public,labeled,real-world,defender_artifacts,alerts
+SST-2,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Steak Survey,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+steel,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+STL10,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+STM32F4Cube Applications,used,public,labeled,real-world,defender_artifacts,configurations
+STM32F7Cube Applications,used,public,labeled,real-world,defender_artifacts,configurations
+Storage System Configuration Dataset,created,Custom-created datasets but public,labeled,real-world,Others,others
+Strava activities,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Streaming Video Providers,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Streamspot,used,public,labeled,real-world,attacker_related,attacks
+Study 2 Dataset of Privacy Methods & Count of Usage per Country,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Study 3 Perception Questionnaire Scale Items,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_attitudes
+"Subdomains of top 1,700 .gov",created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+"Subdomains of top 10,000",created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+"Subdomains of top 2,700 .edu",created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+SugarCoat resource replacements dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+SURBL,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Survey Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attitudes
+SushiSwap,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Sushiswap Trading Data,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+SVEN Training Dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+SVHN,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+SW-620H,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+SWaT,used,public,labeled,realistic,attacker_related,attacks
+SWaT,used,public,labeled,real-world,defender_artifacts,alerts
+SWaT dataset,used,public,labeled,realistic,attacker_related,attacks
+SWaT simulator,created,Custom-created datasets but public,labeled,realistic,attacker_related,attacks
+SwissProt database,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+SYM,used,public,labeled,real-world,attacker_related,exploits
+Symantec EDR dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+S YMTCP Datasets,created,Custom-created datasets but public,labeled,synthetic,macro_level_internet_characteristics,network_traces
+Synthesize,created,Custom-created datasets but public,labeled,synthetic,user_and_organizational_characteristics,user_activities
+Synthetic,created,"Custom-created datasets, not shared",not-mentioned,synthetic,Others,others
+Synthetic data from the Zipf distribution,used,public,labeled,synthetic,Others,others
+Synthetic Dataset,created,"Custom-created datasets, not shared",not mentioned,synthetic,Others,others
+Synthetic demographic data,created,Custom-created datasets but public,labeled,synthetic,user_and_organizational_characteristics,user_attributes
+Synthetic-H,used,public,labeled,synthetic,user_and_organizational_characteristics,user_activities
+Synthetic-L,used,public,labeled,synthetic,user_and_organizational_characteristics,user_activities
+Synthetic Location Traces,created,"Custom-created datasets, not shared",labeled,hybrid,user_and_organizational_characteristics,user_activities
+Synthetic Polish Summer Peak 2008,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+Synthetic South Carolina,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+Synthetic Texas,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+Synthetic uniform dataset,created,"Custom-created datasets, not shared",not mentioned,synthetic,user_and_organizational_characteristics,user_activities
+Synthetic Western Interconnection,used,public,labeled,realistic,macro_level_internet_characteristics,topology
+System Call Feature Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,defender_artifacts,alerts
+System Event Data,created,"Custom-created datasets, not shared",Not Mentioned,realistic,defender_artifacts,alerts
+T,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+TaintART,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+TaintDroid,used,public,labeled,real-world,attacker_related,exploits
+TalkingData,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Task-Specific Datasets,created,Custom-created datasets but public,labeled,realistic,attacker_related,malware
+TATP,used,public,labeled,real-world,Others,others
+Taxi,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Taxi pickup time dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Taxi Trajectory Prediction,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tennessee-Eastman (TE) process control model,used,public,labeled,realistic,attacker_related,attacks
+TeraSort,used,public,labeled,real-world,Others,others
+TESEC Implementation Datasets,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+Test call logs,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,cybercrime_infrastructures
+Testing Dataset 1,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Testing Dataset 2,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Test IPRNs,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,cybercrime_infrastructures
+TestMalware,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,malware
+Texas,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Texas,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas100,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas-100X,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas A&M University dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Texas Comptroller dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Texas Health Care Information Collection,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas Hospital Discharge Data,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas Hospital Discharge Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas Hospital Inpatient Discharge Public Use Data File of 2008 (PUDF),used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Texas Inpatient Public Use Data File (PUDF),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Texas Pan Handle power grid,used,public,labeled,realistic,attacker_related,attacks
+TFTP,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+Theia,used,public,labeled,realistic,attacker_related,attacks
+ThermalView,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+ThermalView-Adv,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,image_datasets
+Three-tab dataset,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+Thyroid,used,public,unlabeled,realistic,user_and_organizational_characteristics,user_attributes
+Tianya,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Tiny-ImageNet,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+TLD+3 domains hosted on detected sub-allocations,used,public,labeled,realistic,macro_level_internet_characteristics,applications
+TLDR,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+TLS/non-TLS dataset,created,"Custom-created datasets, not shared",labeled,realistic,macro_level_internet_characteristics,network_traces
+TLS Certificates from Rapid7,used,public,labeled,real-world,defender_artifacts,alerts
+TLS Certificates from Rapid7's Project Sonar,used,public,labeled,realistic,attacker_related,vulnerabilities
+TLS Certificates from University of Michigan,used,public,labeled,real-world,defender_artifacts,alerts
+ToN-IoT,used,public,labeled,realistic,macro_level_internet_characteristics,network_traces
+"Top 10,000 English Words",used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Top 1000 Alexa websites,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Top 100 cryptocurrencies based on USD market capitalization,used,public,not mentioned,real-world,user_and_organizational_characteristics,user_attributes
+Top 100 pages on Alexa,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Top-10K dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Top 1 Million Websites,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Top 500,used,public,labeled,real-world,attacker_related,vulnerabilities
+Top Free dataset,used,public,not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Top Grossing dataset,used,public,not mentioned,realistic,user_and_organizational_characteristics,user_activities
+Top Million,used,public,labeled,real-world,attacker_related,vulnerabilities
+Top-million websites,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tor Bandwidth Measurement and Load Distribution Data,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Tor Compass,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Tor Compass,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tor edits to English Wikipedia,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tor exit node list,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+Tor Metrics Portal,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Tor Metrics Portal,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tor Network Measurement Data,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+TouchPal Call Log Database,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Touchscreen Swipes Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Toxic Comment Detection,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+TPC-C,used,public,labeled,real-world,Others,others
+TPC-C,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+TPC-DS,used,public,labeled,real-world,Others,others
+TPC-DS,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+TPC-H,used,public,labeled,real-world,Others,others
+TPC-H,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+TPC-H benchmark,used,public,labeled,real-world,Others,others
+Trace,used,public,labeled,realistic,attacker_related,attacks
+Traffic from Merit ISP,created,"Custom-created datasets, not shared",labeled,realistic,macro_level_internet_characteristics,network_traces
+Training Dataset for Optical Side-Channel Attack,created,Custom-created datasets but public,labeled,realistic,visual_and_multimedia_data,image_datasets
+TrainMalware,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,malware
+Tranco Domain List,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Tranco top 100K,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Tranco Top 1K,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Tranco top 1 million domain names,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Tranco top 5K sites,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Tranco top one million websites,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Transaction,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+TREC,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+TrustICE,created,"Custom-created datasets, not shared",Not Mentioned,realistic,attacker_related,attacks
+tutorial,used,public,unlabeled,realistic,macro_level_internet_characteristics,network_traces
+TweetEval,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Tweet Offensive,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitch,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+twitch,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+twitch dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Twitter,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter content dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter dataset,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter Normal Dataset,used,public,labeled,real-world,attacker_related,attacks
+TWITTER-Partial,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+TwitterSocial,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter Spam Accounts,used,public,labeled,real-world,attacker_related,attacks
+Twitter Spam URLs,used,public,labeled,real-world,attacker_related,attacks
+TwitterStream,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Twitter Trending Dataset,used,public,labeled,real-world,attacker_related,attacks
+Twitter tweets,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+two typing datasets,created,"Custom-created datasets, not shared",labeled,synthetic,visual_and_multimedia_data,synthetic_media_datasets
+U.S. 1990 Census Sample,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+U.S. Census Bureau American Community Survey (ACS),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+U.S. Census data,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+UART Module,used,public,not mentioned,real-world,defender_artifacts,configurations
+UB Data Set,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Ubuntu 12.04 software packages,created,"Custom-created datasets, not shared",not mentioned,real-world,defender_artifacts,configurations
+Ubuntu chat corpus,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Ubuntu IRC Logs,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Ubuntu IRC message logs,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+UCF-101,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+UCF Crime,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+UCI Adult,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+UCI Adult (Census Income),used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+UCI Adult Census Income,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+UCI Adult dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+UCI Spambase,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+UCI Student Alcohol Consumption dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+UCSB-0,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+UCSB-1,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+UCSB-2,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,attacks
+UCSB-Packed,used,public,labeled,real-world,attacker_related,malware
+Udacity Self-Driving Car Challenge Dataset,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+UEFI firmware images,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+UK-Salaries,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Unattributed tracker domains,created,"Custom-created datasets, not shared",not mentioned,realistic,macro_level_internet_characteristics,applications
+Unicorn Wget,used,public,unlabeled,realistic,attacker_related,attacks
+Uniswap Trading Data,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,exploits
+Uniswap V1,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Uniswap V2,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+University Malware Execution Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,malware
+University Public Wireless Network Data,created,"Custom-created datasets, not shared",not mentioned,realistic,user_and_organizational_characteristics,user_activities
+"unlabeled set of 135,577 search and advertisement URLs",created,Custom-created datasets but public,unlabeled,real-world,attacker_related,attacks
+UNSW-IoT,used,public,labeled,realistic,attacker_related,attacks
+UNSW-NB15,used,public,labeled,hybrid,attacker_related,attacks
+US Accident,used,public,labeled,real-world,macro_level_internet_characteristics,adverse_events
+USB flash drives,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+USB mass storage devices,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,attacks
+USCensus1990,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+US Census 2010,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+US Census Income,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+User Comments and Ratings,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+User Dataset (UD),created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+User input events,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+User Reviews Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+USTS,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+UTKFace,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+UUIDs extracted from BLE IoT Apps,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+Vanilla,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+VAST Challenge 2011 dataset,used,public,labeled,real-world,attacker_related,attacks
+VCTK,used,public,labeled,real-world,visual_and_multimedia_data,audio_datasets
+Vehicle,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+vehicle traces,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Vendor Malware Execution Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,malware
+VGG-Face,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+VGGFace2,used,public,labeled,realistic,visual_and_multimedia_data,image_datasets
+VGGFace Dataset,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Victim Interaction Dataset,created,"Custom-created datasets, not shared",labeled,real-world,user_and_organizational_characteristics,user_activities
+VirusShare,used,public,labeled,real-world,attacker_related,malware
+VirusShare dataset,used,public,labeled,real-world,attacker_related,malware
+VirusSign,used,public,labeled,real-world,attacker_related,malware
+VirusTotal,used,public,labeled,real-world,attacker_related,cybercrime_infrastructures
+VirusTotal,used,public,labeled,realistic,attacker_related,malware
+VirusTotal Balanced Dataset,used,public,labeled,real-world,attacker_related,malware
+VirusTotal Reports,used,public,labeled,realistic,attacker_related,cybercrime_infrastructures
+VisualPhish,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+VLC Media Player,used,public,not mentioned,real-world,macro_level_internet_characteristics,applications
+VOC07+12,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Voice Recorder EMR Dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,visual_and_multimedia_data,audio_datasets
+Voter Registration Data,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+VoxCeleb,used,public,labeled,real-world,visual_and_multimedia_data,multimodal_datasets
+Voxceleb1,used,public,labeled,real-world,visual_and_multimedia_data,multimodal_datasets
+Voxceleb2,used,public,labeled,real-world,visual_and_multimedia_data,multimodal_datasets
+VPN Gate,used,public,unlabeled,realistic,attacker_related,cybercrime_infrastructures
+VRASED,created,Custom-created datasets but public,labeled,realistic,attacker_related,exploits
+VTFeed,created,Custom-created datasets but public,labeled,real-world,attacker_related,malware
+VulDeePecker,used,public,labeled,real-world,attacker_related,vulnerabilities
+Vulnerability Analysis Data,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+Vulnerability Analysis Datasets,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+Vulnerability benchmark,created,Custom-created datasets but public,labeled,realistic,attacker_related,vulnerabilities
+Vulnerability dataset,created,"Custom-created datasets, not shared",not mentioned,realistic,attacker_related,vulnerabilities
+Vulnerability Environments,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Vulnerable Dataset,created,"Custom-created datasets, not shared",labeled,realistic,attacker_related,vulnerabilities
+vulnerable extensions dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+Vulnerable wireless routers,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+VWBench,used,public,labeled,real-world,attacker_related,exploits
+VX Underground,used,public,labeled,real-world,attacker_related,malware
+WackoPicko,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+WADI,used,public,labeled,realistic,attacker_related,attacks
+Walmart Gift Cards,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Wang dataset,used,public,labeled,realistic,attacker_related,attacks
+Wannacry,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,exploits
+Washington dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Weapon dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+web,used,public,relabeled,real-world,macro_level_internet_characteristics,applications
+WebCapsule browsing traces,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Web Display Ads Dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Website Domain Graph,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,applications
+Webspam,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Web traffic dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
+WeChat miniapps,created,"Custom-created datasets, not shared",not mentioned,real-world,attacker_related,vulnerabilities
+WeChat Registration Dataset I,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+WeChat Registration Dataset II,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+Weibo Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+WF datasets,created,Custom-created datasets but public,labeled,real-world,macro_level_internet_characteristics,network_traces
+wget2-2.0.0,created,Custom-created datasets but public,labeled,real-world,attacker_related,vulnerabilities
+WHOIS,used,public,labeled,realistic,user_and_organizational_characteristics,user_attributes
+WHOIS dataset,created,Custom-created datasets but public,labeled,realistic,attacker_related,cybercrime_infrastructures
+Whois snapshots of the entire IPv4 address space,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+WiFi access point dataset,created,Custom-created datasets but public,labeled,real-world,user_and_organizational_characteristics,user_activities
+WiFi geolocation data,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+WikiArt,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+"Wikimedia Dumps (2.93GB, 8.92GB, 60.2GB)",used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Wikipedia,used,public,unlabeled,real-world,macro_level_internet_characteristics,applications
+Wikipedia,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Wikipedia,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_activities
+Wikipedia Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Wikipedia data dump,used,public,unlabeled,realistic,macro_level_internet_characteristics,applications
+Wikipedia data set,used,public,labeled (via URL),real-world,macro_level_internet_characteristics,network_traces
+Wikipedia dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Wikipedia Toxic Comments,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Wikitext-103,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+WikiText-2,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Wiki-Vote,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Windows PE malware dataset,created,Custom-created datasets but public,relabeled,real-world,attacker_related,malware
+Wine,used,public,labeled,real-world,Others,others
+wine,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+WINE-A V,used,proprietary,labeled,realistic,attacker_related,exploits
+WINE-BR,used,proprietary,not mentioned,real-world,attacker_related,exploits
+Wine Quality,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Wine Quality,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+WINE System,used,public,labeled,real-world,defender_artifacts,alerts
+Wisconsin Breast Cancer Diagnostic,used,public,labeled,real-world,user_and_organizational_characteristics,user_attributes
+WISDM,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Wooyun,used,public,labeled,real-world,attacker_related,vulnerabilities
+Word Count Workflow,created,Custom-created datasets but public,labeled,realistic,macro_level_internet_characteristics,applications
+WordPress,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,vulnerabilities
+Wrist motion data,created,"Custom-created datasets, not shared",labeled,realistic,user_and_organizational_characteristics,user_activities
+WUSTL-EHMS,used,public,labeled,realistic,attacker_related,attacks
+WUSTL-IIoT,used,public,labeled,realistic,attacker_related,attacks
+WVU dataset,used,restricted,labeled,realistic,visual_and_multimedia_data,image_datasets
+XATO,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Xiaomi,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+XML Samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+XRP Ledger,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+XSLT Samples,created,Custom-created datasets but public,labeled,real-world,attacker_related,exploits
+Yahoo,used,public,unlabeled,real-world,attacker_related,cybercrime_infrastructures
+Yahoo,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Yahoo!,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+Yahoo! password frequency corpus,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Yahoo network traffic,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
+Yale Face,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Yandex Captcha,created,Custom-created datasets but public,labeled,real-world,visual_and_multimedia_data,image_datasets
+Yara,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
+Yeast,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Yeast,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+YeastH,used,public,labeled,real-world,macro_level_internet_characteristics,applications
+Yelp,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Yelp-author,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Yelp-Health,used,public,labeled,realistic,user_and_organizational_characteristics,user_activities
+Youku,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+YouTube Face,used,public,labeled,real-world,visual_and_multimedia_data,image_datasets
+YouTube-Face,used,public,labeled,real-world,visual_and_multimedia_data,video_datasets
+Zapier dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+ZeroAccess,created,"Custom-created datasets, not shared",labeled,real-world,attacker_related,cybercrime_infrastructures
+Zipf,created,Custom-created datasets but public,not mentioned,synthetic,Others,others
+ZLint,created,Custom-created datasets but public,labeled,realistic,defender_artifacts,alerts
+Zomato,used,public,unlabeled,real-world,user_and_organizational_characteristics,user_attributes
+ZRAM,used,public,not mentioned,realistic,attacker_related,attacks

@@ -1,0 +1,403 @@
+title,dataset_name,availability,dataset_creation_reason,data_collection_method,scale_of_data,data_sources,data_collection_purpose
+POISED: Spotting Twitter Spam Off the Beaten Paths,Twitter dataset,"Custom-created datasets, not shared","['D', 'F']","```json
+{
+    ""data_collection_method"": [""DC13""]
+}
+```","```json
+{
+    ""scale_of_data"": ""1.3M tweets from 64K users""
+}
+```","```json
+{
+    ""data_sources"": [""Twitter API"" ]
+}
+```","```json
+{
+    ""data_collection_purpose"": ""Created to study real-world attack data.""
+}
+```"
+Dissecting Click Fraud Autonomy in the Wild,Custom Dataset,"Custom-created datasets, not shared",['G'],"```json
+{
+    ""data_collection_method"": [""DC11""]
+}
+```","```json
+{
+    ""scale_of_data"": ""120,000 apps analyzed (20,000 top-rated apps from Google Play and Huawei AppGallery, plus 100,000 randomly selected apps from Google Play)""
+}
+```","```json
+{
+    ""data_sources"": [""Google Play"", ""Huawei AppGallery"" ]
+}
+```","```json
+{
+    ""data_collection_purpose"": ""Created to study real-world attack data.""
+}
+```"
+Deterrence of Intelligent DDoS via Multi-Hop Traffic Divergence,49.8 TB dataset from Tsinghua campus network,"Custom-created datasets, not shared","['A', 'F', 'G']","```json
+{
+    ""data_collection_method"": [""DC2""]
+}
+```","```json
+{
+    ""scale_of_data"": ""49.8 TB dataset from a department at Tsinghua campus network""
+}
+```","```json
+{
+    ""data_sources"": [""Network logs"", ""University dataset""]
+}
+```",Created to study real-world attack data.
+AFLGuard: Byzantine-robust Asynchronous Federated Learning,Synthetic Dataset,"Custom-created datasets, not shared","['H', 'I']","```json
+{
+    ""data_collection_method"": [""DC9""]
+}
+```","```json
+{
+    ""scale_of_data"": ""10,000 samples across 100 clients for synthetic dataset; 60,000 images for MNIST; 70,000 images for Fashion-MNIST; 10,299 samples for HAR; 5,000 images for Colorectal Histology MNIST; 60,000 images for CIFAR-10""
+}
+```","```json
+{
+    ""data_sources"": [""Simulated statistical model""]
+}
+```",Created to study adversarial security models.
+Experimenting with Zero-Knowledge Proofs of Training,"4 GB dataset of 262,144 records with 1024 features","Custom-created datasets, not shared","['H', 'F', 'I']","```json
+{
+    ""data_collection_method"": [""DC9""]
+}
+```","```json
+{
+    ""scale_of_data"": ""262,144 records with 1,024 features each (4 GB dataset)""
+}
+```","```json
+{
+    ""data_sources"": [""Simulated statistical model""]
+}
+```",Needed synthetic data for analysis
+Detecting Weak Keys in Manufacturing Certificates: A Case Study,Manufacturing Certificates,"Custom-created datasets, not shared","['A', 'F', 'I']","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```",226 million manufacturing certificates analyzed,"```json
+{
+    ""data_sources"": [""Cisco Cryptographic Services""]
+}
+```",Created to study real-world vulnerabilities in manufacturing certificates
+A Large Scale Investigation of Obfuscation Use in Google Play,O**** tool dataset,"Custom-created datasets, not shared","['A', 'F', 'G']","```json
+{
+    ""data_collection_method"": [""DC13""]
+}
+```","```json
+{
+    ""scale_of_data"": ""1,762,868 free Android apps analyzed; 308 developers surveyed; 70 participants in follow-up study""
+}
+```","```json
+{
+    ""data_sources"": [""Google Play""]
+}
+```",Created to study real-world vulnerabilities in Android applications.
+Debin: Predicting Debug Information in Stripped Binaries,ELF binaries,"Custom-created datasets, not shared","['D', 'E', 'F']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""9,000 non-stripped binaries (3,000 for each architecture: x86, x64, ARM)""
+}
+```","```json
+{
+    ""data_sources"": [""Linux Debug Symbol Packages""]
+}
+```",Training ML models for binary recovery.
+DEPCOMM : Graph Summarization on System Audit Logs for Attack Investigation,real attacks dataset,"Custom-created datasets, not shared","['D', 'E','F', 'G']","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```","```json
+{
+    ""scale_of_data"": ""∼150 million events processed""
+}
+```","```json
+{
+    ""data_sources"": [""System audit logs""]
+}
+```",Created to study real-world attack data.
+Effective Real-time Android Application Auditing,freeapp,"Custom-created datasets, not shared",['G'],"```json
+{
+    ""data_collection_method"": [""DC11""]
+}
+```","```json
+{
+    ""scale_of_data"": ""1,005 malware samples and 400 real apps analyzed""
+}
+```","```json
+{
+    ""data_sources"": [""Various third-party Android markets""]
+}
+```",Created to study real-world vulnerabilities in mobile applications
+Five Years of the Right to be Forgotten,European RTBF requests,"Custom-created datasets, not shared","['A', 'D', 'E', 'F', 'I']","```json
+{
+    ""data_collection_method"": [""DC6"", ""DC8""]
+}
+```","```json
+{
+    ""scale_of_data"": ""3,231,694 requested URLs from 502,648 requesters""
+}
+```","```json
+{
+    ""data_sources"": [""Google RTBF submission system""]
+}
+```","Created to study large-scale trends, user behaviors, or operational patterns in real-world systems."
+Latent Typing Biometrics in Online Collaboration Services,Log Replay Data Set (LRDS),"Custom-created datasets, not shared","['A', 'D', 'E']","```json
+{
+    ""data_collection_method"": [""DC13""]
+}
+```","```json
+{
+    ""scale_of_data"": ""74 users × 10 instances each (1,000–1,500 characters per instance)""
+}
+```","```json
+{
+    ""data_sources"": [""Network logs"", ""Google Docs"", ""Zoho Writer""]
+}
+```",Created to study real-world vulnerabilities in online collaboration services.
+LEMNA: Explaining Deep Learning based Security Applications,Binaries dataset,"Custom-created datasets, not shared","['A', 'C', 'E']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""10,000 PDF files and 2,200 binaries used for evaluation""
+}
+```","```json
+{
+    ""data_sources"": [""not mentioned"" ]
+}
+```",Created to study real-world vulnerabilities in binary applications.
+Limits of I/O Based Ransomware Detection: An Imitation Based Attack,benign program behaviors,"Custom-created datasets, not shared","['A', 'C', 'G']","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```","```json
+{
+    ""scale_of_data"": ""10 benign programs × 3 exploitable patterns each (totaling 3,281 unique files accessed)""
+}
+```","```json
+{
+    ""data_sources"": [""Network logs""]
+}
+```",Created to study real-world attack data.
+Making Smart Contracts Smarter,Ethereum Smart Contracts,"Custom-created datasets, not shared","['A', 'D', 'I']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""19,366 existing Ethereum contracts analyzed""
+}
+```","```json
+{
+    ""data_sources"": [""Ethereum smart contracts""]
+}
+```",Created to study real-world vulnerabilities in Ethereum smart contracts.
+Scalable Graph-based Bug Search for Firmware Images,Firmware image dataset,"Custom-created datasets, not shared","['A', 'C', 'F']","```json
+{
+    ""data_collection_method"": [""DC1""]
+}
+```","```json
+{
+    ""scale_of_data"": ""33,045 devices across 8,126 firmware images containing 420,558,702 functions""
+}
+```","```json
+{
+    ""data_sources"": [""Firmware image dataset""]
+}
+```",Created to study real-world vulnerabilities in IoT devices.
+Scalable Graph-based Bug Search for Firmware Images,Baseline evaluation dataset,"Custom-created datasets, not shared","['A', 'D', 'F']","```json
+{
+    ""data_collection_method"": [""DC1""]
+}
+```","```json
+{
+    ""scale_of_data"": ""33,045 devices across 8,126 firmware images containing 420,558,702 functions""
+}
+```","```json
+{
+    ""data_sources"": [""Firmware image dataset""]
+}
+```",Created to study real-world vulnerabilities in IoT devices.
+Scalable Graph-based Bug Search for Firmware Images,Vulnerability dataset,"Custom-created datasets, not shared","['A', 'C', 'I']","```json
+{
+    ""data_collection_method"": [""DC1""]
+}
+```","```json
+{
+    ""scale_of_data"": ""8,126 firmware images from 33,045 devices containing 420,558,702 functions""
+}
+```","```json
+{
+    ""data_sources"": [""Firmware image dataset""]
+}
+```",Created to study real-world vulnerabilities in IoT devices.
+Tiresias: Predicting Security Events Through Deep Learning,D1,"Custom-created datasets, not shared","['D', 'F']","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```","```json
+{
+    ""scale_of_data"": ""3.4 billion security events collected from 740k machines over a period of 27 days""
+}
+```",['Commercial intrusion prevention system'],Created to study real-world attack data.
+Tiresias: Predicting Security Events Through Deep Learning,D2,"Custom-created datasets, not shared"," [""D"", ""E""]","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```","```json
+{
+    ""scale_of_data"": ""3.4 billion security events collected from 740k machines over a period of 27 days""
+}
+```",['Commercial intrusion prevention system'],Created to study real-world attack data.
+Towards Continuous Access Control Validation and Forensics,Center,"Custom-created datasets, not shared","['A', 'C', 'F']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""369 million logs collected from Wikipedia over 2 weeks, 5.9 million logs from Center over 11 months, 3.8 million logs from Course over 11 months, 100,000 logs from Company over 3 hours, and 32,000 logs from Group over 1 month""
+}
+```",['Access logs from five real-world systems'],Other purposes specified in the paper
+Towards Continuous Access Control Validation and Forensics,Course,"Custom-created datasets, not shared","['A', 'E']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""369 million logs collected from Wikipedia over 2 weeks, 5.9 million logs from Center over 11 months, 3.8 million logs from Course over 11 months, 100,000 logs from Company over 3 hours, and 32,000 logs from Group over 1 month""
+}
+```",['Access logs from five real-world systems'],Created to study real-world vulnerabilities in access control policies.
+Towards Continuous Access Control Validation and Forensics,Company,"Custom-created datasets, not shared","['A', 'C', 'F']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""369 million logs collected from Wikipedia over 2 weeks, 5.9 million logs from Center over 11 months, 3.8 million logs from Course over 11 months, 100,000 logs from Company over 3 hours, and 32,000 logs from Group over 1 month.""
+}
+```",['Access logs from five real-world systems'],Other purposes specified in the paper
+Towards Continuous Access Control Validation and Forensics,Group,"Custom-created datasets, not shared","['A', 'C', 'E']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""369 million logs collected from Wikipedia over 2 weeks, 5.9 million logs from Center over 11 months, 3.8 million logs from Course over 11 months, 100,000 logs from Company over 3 hours, and 32,000 logs from Group over 1 month""
+}
+```",['Access logs from five real-world systems'],Created to study real-world vulnerabilities in access control policies.
+Towards Making Systems Forget with Machine Unlearning,Huawei JavaScript malware samples,"Custom-created datasets, not shared","['A', 'G']","```json
+{
+    ""data_collection_method"": [""DC3""]
+}
+```","```json
+{
+    ""scale_of_data"": ""100,000 JavaScript malware samples from Huawei""
+}
+```","['Huawei JavaScript malware samples', 'LensKit recommendation system']",Created to study real-world vulnerabilities in machine learning systems.
+Towards Making Systems Forget with Machine Unlearning,PDF malware samples,"Custom-created datasets, not shared","['A', 'D', 'G']","```json
+{
+    ""data_collection_method"": [""DC3""]
+}
+```","```json
+{
+    ""scale_of_data"": ""100,000 JavaScript malware samples from Huawei""
+}
+```","['Huawei', 'JavaScript malware samples']",Created to study real-world vulnerabilities in machine learning systems.
+Tracking Ransomware End-to-end,Ransomware binaries,"Custom-created datasets, not shared","['A', 'D', 'F']","```json
+{
+    ""data_collection_method"": [""DC3"", ""DC6""]
+}
+```","```json
+{
+    ""scale_of_data"": ""19,750 potential victims × $16 million USD in ransom payments tracked over two years""
+}
+```","```json
+{
+    ""data_sources"": [""Ransomware binaries"", ""Victim telemetry"", ""Synthetic victims""]
+}
+```",Created to study real-world attack data.
+Tracking Ransomware End-to-end,Ransomware telemetry data,"Custom-created datasets, not shared","['A', 'C', 'F']","```json
+{
+    ""data_collection_method"": [""DC10""]
+}
+```","```json
+{
+    ""scale_of_data"": ""19,750 potential victims × $16 million in likely ransom payments over two years""
+}
+```","```json
+{
+    ""data_sources"": [""Ransomware binaries"", ""Victim telemetry"", ""Synthetic victims""]
+}
+```",Created to study real-world attack data.
+Tracking Ransomware End-to-end,Ransomware payment data,"Custom-created datasets, not shared","['A', 'C', 'G']","```json
+{
+    ""data_collection_method"": [""DC1""]
+}
+```","```json
+{
+    ""scale_of_data"": ""19,750 potential victims × $16 million in likely ransom payments tracked""
+}
+```","```json
+{
+    ""data_sources"": [""Ransomware binaries"", ""Victim telemetry"", ""Synthetic victims""]
+}
+```",Created to study real-world attack data.
+Tracking Ransomware End-to-end,Ransomware clusters,"Custom-created datasets, not shared","['A', 'C', 'G']","```json
+{
+    ""data_collection_method"": [""DC1""]
+}
+```","```json
+{
+    ""scale_of_data"": ""19,750 potential victims × $16 million in ransom payments tracked over two years""
+}
+```","```json
+{
+    ""data_sources"": [""Ransomware binaries"", ""Victim telemetry"", ""Synthetic victims""]
+}
+```",Created to study real-world attack data.
+Viden: Attacker Identification on In-Vehicle Networks,CAN bus prototype,"Custom-created datasets, not shared","['A', 'E', 'G']","```json
+{
+    ""data_collection_method"": [""DC14""]
+}
+```","```json
+{
+    ""scale_of_data"": ""30 dominant voltages obtained for each message ID across 50 rounds in a CAN bus prototype""
+}
+```",['CAN bus prototype'],Created to study real-world attack data.
+Viden: Attacker Identification on In-Vehicle Networks,2013 Honda Accord,"Custom-created datasets, not shared","['A', 'E']","```json
+{
+    ""data_collection_method"": [""DC5""]
+}
+```","```json
+{
+    ""scale_of_data"": ""30 dominant voltages obtained for each message ID across 50 rounds in a CAN bus prototype""
+}
+```",['real vehicles'],Created to study real-world attack data.
+Viden: Attacker Identification on In-Vehicle Networks,2015 Chevrolet Trax,"Custom-created datasets, not shared","['A', 'E', 'G']","```json
+{
+    ""data_collection_method"": [""DC5""]
+}
+```","```json
+{
+    ""scale_of_data"": ""M=30 dominant voltages obtained for each message ID across N=50 rounds, with κ=15 non-ACK voltages collected from both CANH and CANL.""
+}
+```",['2015 Chevrolet Trax'],Created to study real-world attack data.
+On the Feasibility of Automating Stock Market Manipulation,Dark web marketplace data,"Custom-created datasets, not shared","['A', 'G']","```json
+{
+    ""data_collection_method"": [""DC1"", ""DC7""]
+}
+```","```json
+{
+    ""1,005 account listings""
+}
+```","```json
+{
+    ""data_sources"": [""dark web marketplace (AlphaBay)""]
+}
+```",Estimate the leverage adversaries could gain per compromised account
