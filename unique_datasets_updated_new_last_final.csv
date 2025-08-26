@@ -214,7 +214,7 @@ Benign and Malware PE files,used,public,labeled,realistic,attacker_related,explo
 benign apps,created,Custom-created datasets but public,labeled,real-world,attacker_related,attacks
 Benign dataset,created,Custom-created datasets but public,labeled,real-world,attacker_related,cybercrime_infrastructures
 Benign Dataset,created,Custom-created datasets but public,labeled,real-world,defender_artifacts,alerts
-Benign Dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
+Benign Dataset,used,public,labeled,real-world,macro_level_internet_characteristics,network_traces
 Benign evaluation dataset,created,Custom-created datasets but public,not mentioned,realistic,defender_artifacts,alerts
 Benign JavaScript data,used,public,labeled,real-world,defender_artifacts,alerts
 Benign JavaScript dataset,used,public,labeled,real-world,user_and_organizational_characteristics,user_activities
