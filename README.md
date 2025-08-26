@@ -51,7 +51,7 @@ Prompt files (all versions):
 - `human_validation_101.xlsx` *(101 papers)*
 
 ### `results/`
-- **`raw/`** – Raw outputs from prompting (JSONL and CSV formats).  
+- **`analysis_results/raw_counts_custom_created`** – Raw outputs from prompting, custom-created datasets.  
 - **`analysis/`** – Cleaned CSVs and Excel (`.xlsx`) containing processed dataset trends, metadata, validation summaries, and results.  
 
 ---
