@@ -65,12 +65,6 @@ Prompt files (all versions):
 
 ---
 
-## Validation
-
-- **Scope:** Manual validation of subsets (101-paper and 22-paper sets) against model-extracted results.  
-- **Metrics:** Accuracy (AC), Precision (PR), Recall (RC), F1.  
-- **Artifacts:** Per-paper comparisons and summary tables saved to `results/analysis/` as CSV and Excel (`.xlsx`), e.g., `validation_summary.xlsx`, `per_paper_validation.xlsx`.  
-- **Reproduce:** Run the test notebooks listed above and compare with provided `.xlsx` files.
 
 ---
 
