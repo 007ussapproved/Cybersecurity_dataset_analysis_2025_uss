@@ -4,7 +4,31 @@ Scripts, prompts, and analysis pipeline for our Systematization of Knowledge (So
 
 ---
 
-##  Repository Structure
+
+##  Quick Start
+
+### 1) Clone the repository
+```bash
+git clone <this-repository-url>
+cd Cybersecurity_dataset_analysis_2025_uss
+
+### 2) Set up Python environment
+
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+### 3) Launch JupyterLab or VS Code
+
+jupyter lab
+
+## Repository Structure
+
 
 ### `scripts/`
 - **`dataset_llm_final_uss.ipynb`** – Main prompting workflow for metadata extraction. Includes runner and saving scripts, cleaning raw outputs into separate files, and domain analysis.  
@@ -13,11 +37,17 @@ Scripts, prompts, and analysis pipeline for our Systematization of Knowledge (So
 - **`dataset_llm-test.ipynb`** – Test run with 101 papers.  
 - **`dataset_llm-test-subset_20.ipynb`** – Test run with 22 papers.  
 
+
 ### `txt/`
 Prompt files (all versions):
 - `ver1_prompt.txt`  
 - `ver2_prompt.txt`  
-- `ver3_prompt.txt`  
+- `ver3_prompt.txt`
+
+### manual validation files `xlsx`
+- `keyword_validation.xlsx`
+- `human_validation_101.xlsx (101 papers)
+`
 
 ### `results/`
 - **`raw/`** – Raw outputs from prompting (JSONL and CSV formats).  
@@ -25,10 +55,21 @@ Prompt files (all versions):
 
 ---
 
-##  Setup
+##  How to Run
 
-### Option A — Conda
-```bash
-conda env create -f environment.yml
-conda activate cyber-sok
-jupyter lab
+1). Full prompting & metadata extraction:
+Open scripts/dataset_llm_final_uss.ipynb
+
+2). UA/CA + paper–dataset + unique datasets:
+Open scripts/dataset_summary_and_unique_datasets.ipynb
+
+3). Custom dataset analysis:
+Open scripts/CUSTOM_CREATED_DATASET_DEEP_ANALYSIS.ipynb
+
+4). Test runs:
+
+scripts/dataset_llm-test.ipynb (101 papers)
+
+scripts/dataset_llm-test-subset_20.ipynb (22 papers)
+
+## Dependencies
