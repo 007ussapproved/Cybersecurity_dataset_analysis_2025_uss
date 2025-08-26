@@ -52,7 +52,7 @@ Prompt files (all versions):
 
 ### `results/`
 - **`analysis_results/raw_counts_custom_created`** – Raw outputs from prompting, custom-created datasets.  
-- **`analysis/`** – Cleaned CSVs and Excel (`.xlsx`) containing processed dataset trends, metadata, validation summaries, and results.  
+- **`analysis_results`** – Cleaned CSVs and containing processed dataset and domain trends, and results.  
 
 ---
 
