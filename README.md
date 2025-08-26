@@ -51,7 +51,8 @@ Prompt files (all versions):
 - `human_validation_101.xlsx` *(101 papers)*
 
 ### `results/`
-- **`analysis_results/raw_counts_custom_created`** – Raw outputs from prompting, custom-created datasets.  
+- **`Cybersecurity_dataset_analysis_2025_uss/`** - Raw Output file in JSON and CSV()
+- **`analysis_results/raw_counts_custom_created`** – custom-created datasets tasks.  
 - **`analysis_results`** – Cleaned CSVs and containing processed dataset and domain trends, and results.  
 
 ---
