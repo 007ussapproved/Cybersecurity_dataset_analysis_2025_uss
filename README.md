@@ -1,6 +1,6 @@
 # Cybersecurity_dataset_analysis_2025_uss
 
-Scripts, prompts, and analysis pipeline for our Systematization of Knowledge (SoK) paper on cybersecurity research domains and dataset usage trends (2015–2024) using large language models (LLMs).
+Prompts, runner(processing) script, and analysis pipeline for our Systematization of Knowledge (SoK) paper on cybersecurity research domains and dataset usage trends (2015–2024) using large language models (LLMs).
 
 ---
 
