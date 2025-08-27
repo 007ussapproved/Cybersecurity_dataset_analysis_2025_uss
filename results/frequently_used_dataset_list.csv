@@ -1,0 +1,16 @@
+dataset_name,frequency
+cifar10 and cifar100,101
+mnist,65
+imagenet,24
+gtsrb,21
+enron email dataset,16
+pubmed,16
+cora,15
+citeseer,15
+celeba,14
+fashionmnist,12
+cicids2017,11
+svhn,11
+unswnb15,8
+stl10,8
+adult,8
