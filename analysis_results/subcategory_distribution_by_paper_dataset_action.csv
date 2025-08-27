@@ -1,3 +1,0 @@
-action, malware,Alerts,adverse_events,alerts,applications,attacks,audio_datasets,benchmarks,configurations,cybercrime_infrastructures,exploits,image_datasets,malware,multimodal_datasets,network_traces,others,synthetic_media_datasets,topology,user_activities,user_attitudes,user_attributes,video_datasets,vulnerabilities
-created,0,1,2,48,44,63,7,0,13,57,50,20,27,2,58,9,2,0,114,4,28,2,75
-used,1,0,4,47,207,144,19,2,19,89,41,373,43,5,85,27,0,14,321,1,149,11,52
