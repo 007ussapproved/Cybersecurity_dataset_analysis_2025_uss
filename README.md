@@ -33,12 +33,12 @@ jupyter lab
 
 ## Repository Structure
 
-### `scripts/`
+### `script/`
 - **`dataset_llm_final_uss.ipynb`** – Main prompting workflow for metadata extraction. Includes runner and saving scripts, cleaning raw outputs into separate files, and domain analysis.  
 - **`dataset_summary_and_unique_datasets.ipynb`** – Extracts paper–dataset instances categorized into *Created by Authors (CA)* and *Used by Authors (UA)*. Also performs unique dataset analysis and category-wise analysis.  
 - **`CUSTOM_CREATED_DATASET_DEEP_ANALYSIS.ipynb`** – Focused analysis of *custom-created datasets* only.  
 - **`dataset_llm-test.ipynb`** – Test run with 101 papers.  
-- **`dataset_llm-test-subset_20.ipynb`** – Test run with 22 papers.  
+- **`dataset_llm-test-subset_20.ipynb`** – Test run with 22 papers(subset2).  
 
 ### `txt/`
 Prompt files (all versions):
@@ -46,7 +46,7 @@ Prompt files (all versions):
 - `ver2_prompt.txt`  
 - `ver3_prompt.txt`
 
-### Manual validation files (`.xlsx`)
+### `validation/`
 - `keyword_validation.xlsx`  
 - `human_validation_101.xlsx` *(101 papers)*
 
