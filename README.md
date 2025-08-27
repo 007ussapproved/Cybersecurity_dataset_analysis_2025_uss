@@ -9,7 +9,6 @@ Scripts, prompts, and analysis pipeline for our Systematization of Knowledge (So
 ### 1) Clone the repository
 ```bash
 git clone <https://github.com/007ussapproved/Cybersecurity_dataset_analysis_2025_uss.git>
-cd Cybersecurity_dataset_analysis_2025_uss
 ```
 
 ### 2) Set up Python environment
