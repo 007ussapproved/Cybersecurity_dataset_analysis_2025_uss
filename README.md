@@ -4,26 +4,39 @@ Prompts, runner(processing) script, and analysis pipeline for our Systematizatio
 
 ---
 
-## Quick Start
+# Cybersecurity Paper Extractor & Analyzer
+
+This repository contains scripts to:
+1) **Extract** text and titles from PDFs into a JSONL corpus  
+2) **Run LLM tasks** (title, authors, conference, year, schools, ACM-CCS domain, dataset name, dataset analysis, and dataset categories) over each paper  
+3) **Incrementally save & resume** results  
+4) **Aggregate and analyze** results (CSVs/plots)
+
+> Works best with Python 3.10+.
+
+---
+## What’s Included
+
+- **PDF Extraction**: Read PDFs from a folder, extract full text and a best-effort title, save as JSONL.
+- **LLM Pipeline**: Prompted tasks for metadata and dataset analysis using OpenAI.
+- **Incremental Runner**: Skip already-processed papers and keep appending results to a JSONL.
+- **Analysis Utilities**: Quick scripts to compute dataset-related counts by year and per conference, with simple matplotlib charts.
 
 ### 1) Set up Python environment
+**Create & activate a virtualenv**
 ```bash
 python -m venv .venv
-# Windows:
+# Windows
 .venv\Scripts\activate
-# macOS/Linux:
+# macOS/Linux
 source .venv/bin/activate
-
-pip install --upgrade pip
+```
+2) **Install dependencies**
+Install with:
+```bash
 pip install -r requirements.txt
 ```
 
-### 2) Launch JupyterLab or VS Code
-```bash
-jupyter lab
-```
-
----
 
 ## Repository Structure
 
@@ -59,29 +72,6 @@ Prompt files (all versions):
 2) **UA/CA + paper–dataset + unique datasets**: open `script/dataset_summary_and_unique_datasets.ipynb`  
 3) **Custom dataset analysis**: open `script/CUSTOM_CREATED_DATASET_DEEP_ANALYSIS.ipynb`  
 4) **Test runs**: open `script/dataset_llm-test.ipynb` (101 papers) and `scripts/dataset_llm-test-subset_20.ipynb` (22 papers)
-
----
-
-
----
-
-## Dependencies
-
-Install with:
-```bash
-pip install -r requirements.txt
-```
-
-**requirements.txt**
-```txt
-openai>=1.0.0
-python-dotenv>=1.0.1
-PyPDF2>=3.0.1
-chardet>=5.2.0
-matplotlib>=3.8.0
-jupyterlab>=4.2.0
-ipykernel>=6.29.0
-```
 
 ---
 
