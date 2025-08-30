@@ -22,8 +22,8 @@ This repository contains scripts to:
 - **Incremental Runner**: Skip already-processed papers and keep appending results to a JSONL.
 - **Analysis Utilities**: Quick scripts to compute dataset-related counts by year and per conference, with simple matplotlib charts.
 
-### 1) Set up Python environment
-**Create & activate a virtualenv**
+### Setup
+1) **Create & activate a virtualenv**
 ```bash
 python -m venv .venv
 # Windows
