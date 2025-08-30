@@ -1,0 +1,2176 @@
+title,authors_name,conference_name,published_year,school_institution,dataset_name,dataset_analysis_combined,dataset_categories
+"```json
+{
+    ""title"": ""Privacy Side Channels in Machine Learning Systems""
+}
+```","```json
+{
+    ""authors"": ""Edoardo Debenedetti, Giorgio Severi, Nicholas Carlini, Christopher A. Choquette-Choo, Matthew Jagielski, Milad Nasr, Eric Wallace, Florian Tramèr""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""ETH Zurich, Northeastern University, Google DeepMind, UC Berkeley""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-10"",
+            ""contributors"": ""Garry B. Huang, Manu Ramesh, Tamara Berg, Erik Learned-Miller"",
+            ""doi"": """",
+            ""url"": ""http://vis-www.cs.umass.edu/lfw/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Labeled Faces in the Wild (LFW)"",
+            ""contributors"": ""Gary B. Huang, Manu Ramesh, Tamara Berg, Erik Learned-Miller"",
+            ""doi"": """",
+            ""url"": ""http://vis-www.cs.umass.edu/lfw/""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""CIFAR-10"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Labeled Faces in the Wild (LFW)"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""CIFAR-10"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Labeled Faces in the Wild (LFW)"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Face Recognition""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""The Unpatchables: Why Municipalities Persist in Running Vulnerable Hosts""
+}
+```","```json
+{
+    ""authors"": ""Aksel Ethembabaoglu, Rolf van Wegberg, Yury Zhauniarovich, Michel van Eeten""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Delft University of Technology""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Shodan"",
+            ""contributors"": ""Shodan team"",
+            ""doi"": """",
+            ""url"": ""https://www.shodan.io""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Censys"",
+            ""contributors"": ""Censys team"",
+            ""doi"": """",
+            ""url"": ""https://censys.io""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""National Vulnerability Database (NVD)"",
+            ""contributors"": ""NIST"",
+            ""doi"": """",
+            ""url"": ""https://nvd.nist.gov/""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Shodan"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Censys"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""National Vulnerability Database (NVD)"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Shodan"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""cybercrime_infrastructures"",
+      ""attacker_related_items"": [
+        {""name"": ""Internet-wide scanning""},
+        {""name"": ""Vulnerable services detection""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Censys"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""cybercrime_infrastructures"",
+      ""attacker_related_items"": [
+        {""name"": ""Internet-wide scanning""},
+        {""name"": ""Vulnerable services detection""}
+      ]
+    },
+    {
+      ""dataset_name"": ""National Vulnerability Database (NVD)"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Common Vulnerabilities and Exposures (CVEs)""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Exploiting Leakage in Password Managers via Injection Attacks""
+}
+```","```json
+{
+    ""authors"": ""Andrés Fábrega, Armin Namavari, Rachit Agarwal, Ben Nassi, Thomas Ristenpart""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Cornell University, Cornell Tech, Technion - Israel Institute of Technology""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Enron Email Dataset"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": ""https://www.cs.cmu.edu/~enron/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Majestic Million"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": ""https://majestic.com/reports/majestic-million""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Enron Email Dataset"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Majestic Million"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Enron Email Dataset"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Email communication patterns""},
+        {""name"": ""Social interactions""},
+        {""name"": ""Organizational behavior""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Majestic Million"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""applications"",
+      ""applications_items"": [
+        {""name"": ""Website rankings""},
+        {""name"": ""Domain popularity""},
+        {""name"": ""Traffic analysis""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""OptiSan: Using Multiple Spatial Error Defenses to Optimize Stack Memory Protection within a Budget""
+}
+```","```json
+{
+    ""authors"": ""Rahul George, Mingming Chen, Kaiming Huang, Zhiyun Qian, Thomas La Porta, Trent Jaeger""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""University of California, Riverside, The Pennsylvania State University""
+}
+```","```json
+{
+    ""datasets"": null
+}
+```","```json
+{
+    ""dataset_analysis_combined"": null
+}
+```","```json
+{
+  ""dataset_categories"": null
+}
+```"
+"```json
+{
+    ""title"": ""MAGIC: Detecting Advanced Persistent Threats via Masked Graph Representation Learning""
+}
+```","```json
+{
+    ""authors"": ""Zian Jia, Yun Xiong, Yuhong Nan, Yao Zhang, Jinjing Zhao, Mi Wen""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Fudan University, Sun Yat-sen University, Shanghai University of Electric Power, National Key Laboratory of Science and Technology on Information System Security""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""DARPA E3 Trace"",
+            ""contributors"": ""DARPA Transparent Computing Program"",
+            ""doi"": """",
+            ""url"": ""https://github.com/darpa-i2o/Transparent-Computing""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""StreamSpot"",
+            ""contributors"": ""StreamSpot"",
+            ""doi"": """",
+            ""url"": ""https://github.com/sbustreamspot/sbustreamspot-data""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Unicorn Wget"",
+            ""contributors"": ""Unicorn"",
+            ""doi"": """",
+            ""url"": ""https://dataverse.harvard.edu/dataverse/unicorn-wget""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""DARPA E3 Trace"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""synthetic""
+        },
+        {
+            ""dataset_name"": ""StreamSpot"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""Unicorn Wget"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""DARPA E3 Trace"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""Pine Backdoor""},
+        {""name"": ""Browser Extension""}
+      ]
+    },
+    {
+      ""dataset_name"": ""StreamSpot"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""Drive-by-download attack""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Unicorn Wget"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""Supply-chain attacks""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets""
+}
+```","```json
+{
+    ""authors"": ""Seth Layton, Tyler Tucker, Daniel Olszewski, Kevin Warren, Kevin Butler, Patrick Traynor""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""University of Florida""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""ASVspoof 2021"",
+            ""contributors"": ""Héctor Delgado, Nicholas Evans, Jeeweon Jung, Tomi Kinnunen, Ivan Kukanov, Kong Aik Lee, Xuechen Liu, Andreas Nautsch, Jose Patino, Md Sahidullah, Massimiliano Todisco, Xin Wang"",
+            ""doi"": """",
+            ""url"": ""https://github.com/asvspoof-challenge/2021""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CFAD"",
+            ""contributors"": ""Haoxin Ma, Jiangyan Yi, Chenglong Wang, Xinrui Yan, Jianhua Tao, Tao Wang, Shiming Wang, Le Xu, Ruibo Fu"",
+            ""doi"": """",
+            ""url"": ""https://github.com/ADDchallenge/CFAD""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""ASVspoof 2021"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""hybrid""
+        },
+        {
+            ""dataset_name"": ""CFAD"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""hybrid""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""ASVspoof 2021"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""audio_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Deepfake Speech Detection""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CFAD"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""audio_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Chinese Deepfake Speech Detection""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""MIST: Defending Against Membership Inference Attacks Through Membership-Invariant Subspace Training""
+}
+```","```json
+{
+    ""authors"": ""Jiacheng Li, Ninghui Li, Bruno Ribeiro""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Purdue University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-10"",
+            ""contributors"": ""Alex Krizhevsky, Geoffrey Hinton"",
+            ""doi"": """",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-100"",
+            ""contributors"": ""Alex Krizhevsky, Geoffrey Hinton"",
+            ""doi"": """",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""TEXAS-100"",
+            ""contributors"": ""TEXAS Department of State Health Services"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""PURCHASE-100"",
+            ""contributors"": ""Kaggle"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""LOCATION"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""CIFAR-10"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CIFAR-100"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""TEXAS-100"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""PURCHASE-100"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""LOCATION"",
+            ""availability"": ""Unknown"",
+            ""labeling_type"": ""Unknown"",
+            ""dataset_type"": ""Unknown""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""CIFAR-10"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CIFAR-100"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""TEXAS-100"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_attributes"",
+      ""user_attributes_items"": [
+        {""name"": ""Healthcare Records""}
+      ]
+    },
+    {
+      ""dataset_name"": ""PURCHASE-100"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Shopping Records""}
+      ]
+    },
+    {
+      ""dataset_name"": ""LOCATION"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Location Check-in Records""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""False Claims against Model Ownership Resolution""
+}
+```","```json
+{
+    ""authors"": ""Jian Liu, Rui Zhang, Sebastian Szyller, Kui Ren, N. Asokan""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Zhejiang University, Intel Labs, Aalto University, University of Waterloo""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-10"",
+            ""contributors"": ""Alex Krizhevsky, Geoffrey Hinton"",
+            ""doi"": """",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""ImageNet"",
+            ""contributors"": ""Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei"",
+            ""doi"": """",
+            ""url"": ""http://www.image-net.org/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CelebA"",
+            ""contributors"": ""Ziwei Liu, Ping Luo, Xiaogang Wang, Xiaoou Tang"",
+            ""doi"": """",
+            ""url"": ""http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""CIFAR-10"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""ImageNet"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CelebA"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""CIFAR-10"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""ImageNet"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CelebA"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Face Attribute Recognition""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection""
+}
+```","```json
+{
+    ""authors"": ""Shigang Liu, Di Cao, Junae Kim, Tamas Abraham, Paul Montague, Seyit Camtepe, Jun Zhang, Yang Xiang""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""CSIRO’s Data61, Swinburne University of Technology, DST Group, Australia""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Asterisk"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""OpenSSL"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CWE119"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CWE399"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""SARD"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CWE416"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Java"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Asterisk"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""OpenSSL"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CWE119"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CWE399"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""SARD"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CWE416"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Java"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Asterisk"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Buffer Errors""},
+        {""name"": ""Resource Management Errors""}
+      ]
+    },
+    {
+      ""dataset_name"": ""OpenSSL"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Cryptographic Vulnerabilities""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CWE119"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Buffer Overflow""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CWE399"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Resource Management Errors""}
+      ]
+    },
+    {
+      ""dataset_name"": ""SARD"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Various Vulnerabilities""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CWE416"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Use-After-Free""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Java"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Various Vulnerabilities""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Enhancing Network Attack Detection with Distributed and In-Network Data Collection System""
+}
+```","```json
+{
+    ""authors"": ""Seyed Mohammad Mehdi Mirnajafizadeh, Ashwin Raam Sethuram, David Mohaisen, DaeHun Nyang, Rhongho Jang""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Wayne State University, University of Central Florida, Ewha Womans University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIC-IDS2017"",
+            ""contributors"": ""Iman Sharafaldin, Arash Habibi Lashkari, Ali A. Ghorbani"",
+            ""doi"": ""https://doi.org/10.21227/5pmnkshffm"",
+            ""url"": ""https://www.unb.ca/cic/datasets/ids-2017.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIC-DDoS-2019"",
+            ""contributors"": ""Iman Sharafaldin, Arash Habibi Lashkari, Ali A. Ghorbani"",
+            ""doi"": ""https://doi.org/10.21227/5pmnkshffm"",
+            ""url"": ""https://www.unb.ca/cic/datasets/ddos-2019.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CAIDA"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": ""https://www.caida.org""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""CIC-IDS2017"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CIC-DDoS-2019"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CAIDA"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""not mentioned"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""CIC-IDS2017"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""DoS""},
+        {""name"": ""DDoS""},
+        {""name"": ""Brute Force""},
+        {""name"": ""Port Scan""},
+        {""name"": ""Web Attack""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CIC-DDoS-2019"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""Reflection""},
+        {""name"": ""Flooding""},
+        {""name"": ""Brute Force""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CAIDA"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""network_traces"",
+      ""macro_level_internet_characteristics_items"": [
+        {""name"": ""Traffic Patterns""},
+        {""name"": ""Flow Characteristics""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice""
+}
+```","```json
+{
+    ""authors"": ""Tushar Nayan, Qiming Guo, Mohammed Al Duniawi, Marcus Botacin, Selcuk Uluagac, Ruimin Sun""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Florida International University, Texas A&M University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""AndroZoo"",
+            ""contributors"": ""Kevin Allix, Tegawendé F. Bissyandé, Jacques Klein, Yves Le Traon"",
+            ""doi"": """",
+            ""url"": ""https://androzoo.uni.lu/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR"",
+            ""contributors"": ""Alex Krizhevsky, Geoff Hinton"",
+            ""doi"": """",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""MNIST"",
+            ""contributors"": ""Yann LeCun, Corinna Cortes, Christopher J.C. Burges"",
+            ""doi"": """",
+            ""url"": ""http://yann.lecun.com/exdb/mnist/""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""AndroZoo"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CIFAR"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""MNIST"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""AndroZoo"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""cybercrime_infrastructures"",
+      ""attacker_related_items"": [
+        {""name"": ""Android Malware""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CIFAR"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""MNIST"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Handwritten Digit Recognition""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Unveiling IoT Security in Reality: A Firmware-Centric Journey""
+}
+```","```json
+{
+    ""authors"": ""Nicolas Nino, Ruibo Lu, Wei Zhou, Kyu Hyung Lee, Ziming Zhao, Le Guan""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""School of Computing, University of Georgia, School of Cyber Science and Engineering, Huazhong University of Science and Technology, Khoury College of Computer Sciences, Northeastern University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""MCU Firmware Dataset"",
+            ""contributors"": ""Nicolas Nino, Ruibo Lu, Wei Zhou, Kyu Hyung Lee, Ziming Zhao, Le Guan"",
+            ""doi"": """",
+            ""url"": """"
+      
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""MCU Firmware Dataset"",
+            ""availability"": ""Custom-created datasets but public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+       
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""MCU Firmware Dataset"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""N-day vulnerabilities""}
+    
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Detecting and Mitigating Sampling Bias in Cybersecurity with Unlabeled Data""
+}
+```","```json
+{
+    ""authors"": ""Saravanan Thirumuruganathan, Fatih Deniz, Issa Khalil, Ting Yu, Mohamed Nabeel, Mourad Ouzzani""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Qatar Computing Research Institute, HBKU, Palo Alto Networks, Independent Researcher""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""AndroZoo"",
+            ""contributors"": ""Kevin Allix, Tegawendé F Bissyandé, Jacques Klein, Yves Le Traon"",
+            ""doi"": """",
+            ""url"": ""https://androzoo.uni.lu/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Ember"",
+            ""contributors"": ""Hyrum S Anderson, Phil Roth"",
+            ""doi"": ""10.48550/arXiv.1804.04637"",
+            ""url"": ""https://github.com/elastic/ember""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""UCSB-Packed"",
+            ""contributors"": ""Hojjat Aghakhani, Fabio Gritti, Francesco Mecca, Martina Lindorfer, Stefano Ortolani, Davide Balzarotti, Giovanni Vigna, Christopher Kruegel"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""BODMAS"",
+            ""contributors"": ""Limin Yang, Arridhana Ciptadi, Ihar Laziuk, Ali Ahmadzadeh, Gang Wang"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CICIDS2017"",
+            ""contributors"": ""Iman Sharafaldin, Arash Habibi Lashkari, Ali A. Ghorbani"",
+            ""doi"": """",
+            ""url"": ""https://www.unb.ca/cic/datasets/ids-2017.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""ToN-IoT"",
+            ""contributors"": ""Nour Moustafa"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""BoT-IoT"",
+            ""contributors"": ""Nickolaos Koroniotis, Nour Moustafa, Elena Sitnikova, Benjamin Turnbull"",
+            ""doi"": """",
+            ""url"": ""https://research.unsw.edu.au/projects/bot-iot-dataset""
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""AndroZoo"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Ember"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""UCSB-Packed"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""BODMAS"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CICIDS2017"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""ToN-IoT"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""BoT-IoT"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""AndroZoo"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""exploits"",
+      ""attacker_related_items"": [
+        {""name"": ""Malware Samples""},
+        {""name"": ""Malicious Apps""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Ember"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""malware"",
+      ""attacker_related_items"": [
+        {""name"": ""Malware Samples""},
+        {""name"": ""PE Files""}
+      ]
+    },
+    {
+      ""dataset_name"": ""UCSB-Packed"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""malware"",
+      ""attacker_related_items"": [
+        {""name"": ""Packed Malware Samples""}
+      ]
+    },
+    {
+      ""dataset_name"": ""BODMAS"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""malware"",
+      ""attacker_related_items"": [
+        {""name"": ""Malware Samples""},
+        {""name"": ""PE Files""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CICIDS2017"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""adverse_events"",
+      ""adverse_events_items"": [
+        {""name"": ""Network Attacks""},
+        {""name"": ""Traffic Anomalies""}
+      ]
+    },
+    {
+      ""dataset_name"": ""ToN-IoT"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""network_traces"",
+      ""network_traces_items"": [
+        {""name"": ""IoT Network Traffic""}
+      ]
+    },
+    {
+      ""dataset_name"": ""BoT-IoT"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""network_traces"",
+      ""network_traces_items"": [
+        {""name"": ""Botnet Traffic""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""OblivGNN: Oblivious Inference on Transductive and Inductive Graph Neural Network""
+}
+```","```json
+{
+    ""authors"": ""Zhibo Xu, Shangqi Lai, Xiaoning Liu, Alsharif Abuadbba, Xingliang Yuan, Xun Yi""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Monash University, CSIRO’s Data61, RMIT University, The University of Melbourne""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Cora"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Citeseer"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Pubmed"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Cora"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Citeseer"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Pubmed"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Cora"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Citation data for academic papers""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Citeseer"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Citation data for academic papers""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Pubmed"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Citation data for medical research papers""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Fingerprinting Obfuscated Proxy Traffic with Encapsulated TLS Handshakes""
+}
+```","```json
+{
+    ""authors"": ""Diwen Xue, Michalis Kallitsis, Amir Houmansadr, Roya Ensafi""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""University of Michigan, Merit Network, Inc., UMass Amherst""
+}
+```","```json
+{
+    ""datasets"": null
+}
+```","```json
+{
+    ""dataset_analysis_combined"": null
+}
+```","```json
+{
+  ""dataset_categories"": null
+}
+```"
+"```json
+{
+    ""title"": ""Cost-effective Attack Forensics by Recording and Correlating File System Changes""
+}
+```","```json
+{
+    ""authors"": ""Le Yu, Yapeng Ye, Zhuo Zhang, Xiangyu Zhang""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Purdue University""
+}
+```","```json
+{
+    ""datasets"": null
+}
+```","```json
+{
+    ""dataset_analysis_combined"": null
+}
+```","```json
+{
+  ""dataset_categories"": null
+}
+```"
+"```json
+{
+    ""title"": ""SECURITY NET: Assessing Machine Learning Vulnerabilities on Public Models""
+}
+```","```json
+{
+    ""authors"": ""Boyang Zhang, Zheng Li, Ziqing Yang, Xinlei He, Michael Backes, Mario Fritz, Yang Zhang""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""CISPA Helmholtz Center for Information Security""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""SECURITY NET"",
+            ""contributors"": ""Boyang Zhang, Zheng Li, Ziqing Yang, Xinlei He, Michael Backes, Mario Fritz, Yang Zhang"",
+            ""doi"": """",
+            ""url"": ""https://github.com/SecurityNet-Research/SecurityNet""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-10"",
+            ""contributors"": ""Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton"",
+            ""doi"": ""https://www.cs.toronto.edu/~kriz/cifar.html"",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CIFAR-100"",
+            ""contributors"": ""Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton"",
+            ""doi"": ""https://www.cs.toronto.edu/~kriz/cifar.html"",
+            ""url"": ""https://www.cs.toronto.edu/~kriz/cifar.html""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""SVHN"",
+            ""contributors"": ""Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng"",
+            ""doi"": ""http://ufldl.stanford.edu/housenumbers/"",
+            ""url"": ""http://ufldl.stanford.edu/housenumbers/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""ImageNet-1k"",
+            ""contributors"": ""Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei"",
+            ""doi"": ""https://image-net.org/"",
+            ""url"": ""https://image-net.org/""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""CUB-200-2011"",
+            ""contributors"": ""N. Wah, S. Branson, G. P. P. P. M. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H. A. A. D. H","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""SECURITY NET"",
+            ""availability"": ""Custom-created datasets but public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CIFAR-10"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CIFAR-100"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""SVHN"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""ImageNet-1k"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""CUB-200-2011"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""SECURITY NET"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""vulnerabilities"",
+      ""attacker_related_items"": [
+        {""name"": ""Model Stealing Attacks""},
+        {""name"": ""Membership Inference Attacks""},
+        {""name"": ""Backdoor Detection""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CIFAR-10"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CIFAR-100"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""SVHN"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""ImageNet-1k"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    },
+    {
+      ""dataset_name"": ""CUB-200-2011"",
+      ""category"": ""visual_and_multimedia_data"",
+      ""subcategory"": ""image_datasets"",
+      ""visual_data_items"": [
+        {""name"": ""Image Classification""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models""
+}
+```","```json
+{
+    ""authors"": ""Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, Farinaz Koushanfar""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""University of California, San Diego""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""HC3"",
+            ""contributors"": ""Biyang Guo, Xin Zhang, Ziyuan Wang, Minqi Jiang, Jinran Nie, Yuxuan Ding, Jianwei Yue, Yupeng Wu"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""WikiText-2"",
+            ""contributors"": ""Stephen Merity, Caiming Xiong, James Bradbury, Richard Socher"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""ChatGPT Abstract"",
+            ""contributors"": ""Nicolai Thorer Sivesind"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Human Abstract"",
+            ""contributors"": ""Nicolai Thorer Sivesind"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""HC3"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""WikiText-2"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""ChatGPT Abstract"",
+            ""availability"": ""Custom-created datasets but public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""Human Abstract"",
+            ""availability"": ""Custom-created datasets but public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""HC3"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""ChatGPT-generated responses to questions from QA platforms""}
+      ]
+    },
+    {
+      ""dataset_name"": ""WikiText-2"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Paragraphs extracted from verified Good and Featured articles on Wikipedia""}
+      ]
+    },
+    {
+      ""dataset_name"": ""ChatGPT Abstract"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Research abstracts generated by ChatGPT""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Human Abstract"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Research abstracts written by human researchers""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Rethinking the Security Threats of Stale DNS Glue Records""
+}
+```","```json
+{
+    ""authors"": ""Yunyi Zhang, Baojun Liu, Haixin Duan, Min Zhang, Xiang Li, Fan Shi, Chengxi Xu, Eihal Alowaisheq""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""National University of Defense Technology, Tsinghua University, Zhongguancun Laboratory, Quan Cheng Laboratory, King Saud University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""DNS Glue Record"",
+            ""contributors"": ""Yunyi Zhang, Baojun Liu, Haixin Duan, Min Zhang, Xiang Li, Fan Shi, Chengxi Xu, and Eihal Alowaisheq"",
+            ""doi"": """",
+            ""url"": """"
+         }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""DNS Glue Record"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""DNS Glue Record"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""network_traces"",
+      ""network_trace_items"": [
+        {""name"": ""Stale Glue Records""},
+        {""name"": ""Domain Hijacking""},
+        {""name"": ""Denial-of-Service Attacks""}
+      ]
+    }
+  ]
+}"
+"```json
+{
+    ""title"": ""Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?""
+}
+```","```json
+{
+    ""authors"": ""Yuanxin Zhuang, Chuan Shi, Mengmei Zhang, Jinghui Chen, Lingjuan Lyu, Pan Zhou, Lichao Sun""
+}
+```","```json
+{
+    ""conference"": ""USS""
+}
+```","```json
+{
+    ""year"": ""2024""
+}
+```","```json
+{
+    ""school"": ""Beijing University of Posts and Telecommunications, The Pennsylvania State University, SONY AI, Huazhong University of Science and Technology, Lehigh University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Cora"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Pubmed"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""A-Computers"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""OGB-Arxiv"",
+            ""contributors"": ""Unknown"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Cora"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Pubmed"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""A-Computers"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""OGB-Arxiv"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Cora"",
+       ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""applications"",
+      ""applications_items"": [
+        {""name"": ""Citation Network""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Pubmed"",
+      ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""applications"",
+      ""applications_items"": [
+        {""name"": ""Medical Publication Network""}
+      ]
+    },
+    {
+      ""dataset_name"": ""A-Computers"",
+     ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""applications"",
+      ""applications_items"": [
+        {""name"": ""Computer Science Citation Network""}
+      ]
+    },
+    {
+      ""dataset_name"": ""OGB-Arxiv"",
+       ""category"": ""macro_level_internet_characteristics"",
+      ""subcategory"": ""applications"",
+      ""applications_items"": [
+        {""name"": ""Arxiv Paper Citation Network""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""WATSON: Abstracting Behaviors from Audit Logs via Aggregation of Contextual Semantics""
+}
+```","```json
+{
+    ""authors"": ""Jun Zeng, Zheng Leong Chua, Yinfang Chen, Kaihang Ji, Zhenkai Liang, Jian Mao""
+}
+```","```json
+{
+    ""conference"": ""NDSS""
+}
+```","```json
+{
+    ""year"": ""2021""
+}
+```","```json
+{
+    ""school"": ""School of Computing, National University of Singapore, School of Cyber Science and Technology, Beihang University""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""DARPA TRACE dataset"",
+            ""contributors"": ""DARPA Transparent Computing program"",
+            ""doi"": """",
+            ""url"": ""https://github.com/darpa-i2o/Transparent-Computing/blob/master/README-E3.md""
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Benign dataset"",
+            ""contributors"": ""Authors of the paper"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Malicious dataset"",
+            ""contributors"": ""Authors of the paper"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Background dataset"",
+            ""contributors"": ""Authors of the paper"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""DARPA TRACE dataset"",
+            ""availability"": ""public"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Benign dataset"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""not mentioned"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""Malicious dataset"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""not mentioned"",
+            ""dataset_type"": ""realistic""
+        },
+        {
+            ""dataset_name"": ""Background dataset"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""not mentioned"",
+            ""dataset_type"": ""realistic""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""DARPA TRACE dataset"",
+      ""category"": ""defender_artifacts"",
+      ""subcategory"": ""alerts"",
+      ""defender_artifacts_items"": [
+        {""name"": ""Audit logs from various security-critical services""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Benign dataset"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Daily tasks performed by users""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Malicious dataset"",
+      ""category"": ""attacker_related"",
+      ""subcategory"": ""attacks"",
+      ""attacker_related_items"": [
+        {""name"": ""Data Theft""},
+        {""name"": ""Illegal Storage""},
+        {""name"": ""Content Destruction""},
+        {""name"": ""Backdoor Installation""},
+        {""name"": ""Passwd-gzip-scp""},
+        {""name"": ""Wget-gcc""},
+        {""name"": ""Configuration Leakage""},
+        {""name"": ""Passwd Reuse""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Background dataset"",
+      ""category"": ""user_and_organizational_characteristics"",
+      ""subcategory"": ""user_activities"",
+      ""user_activities_items"": [
+        {""name"": ""Developer and administrator activities""}
+      ]
+    }
+  ]
+}
+```"
+"```json
+{
+    ""title"": ""Who’s in Control of Your Control System? Device Fingerprinting for Cyber-Physical Systems""
+}
+```","```json
+{
+    ""authors"": ""David Formby, Preethi Srinivasan, Andrew Leonardy, Jonathan Rogers, Raheem Beyah""
+}
+```","```json
+{
+    ""conference"": ""NDSS""
+}
+```","```json
+{
+    ""year"": ""2016""
+}
+```","```json
+{
+    ""school"": ""School of Electrical and Computer Engineering, Georgia Institute of Technology, School of Mechanical Engineering, Georgia Institute of Technology""
+}
+```","```json
+{
+    ""datasets"": [
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Real world dataset from a live power substation"",
+            ""contributors"": ""David Formby, Preethi Srinivasan, Andrew Leonardy, Jonathan Rogers, Raheem Beyah"",
+            ""doi"": """",
+            ""url"": """"
+        },
+        {
+            ""unique_id"": ""null"",
+            ""dataset_name"": ""Controlled lab experiments dataset"",
+            ""contributors"": ""David Formby, Preethi Srinivasan, Andrew Leonardy, Jonathan Rogers, Raheem Beyah"",
+            ""doi"": """",
+            ""url"": """"
+        }
+    ]
+}
+```","```json
+{
+    ""dataset_analysis_combined"": [
+        {
+            ""dataset_name"": ""Real world dataset from a live power substation"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""real-world""
+        },
+        {
+            ""dataset_name"": ""Controlled lab experiments dataset"",
+            ""availability"": ""Custom-created datasets, not shared"",
+            ""labeling_type"": ""labeled"",
+            ""dataset_type"": ""realistic""
+        }
+    ]
+}
+```","```json
+{
+  ""dataset_categories"": [
+    {
+      ""dataset_name"": ""Real world dataset from a live power substation"",
+      ""category"": ""defender_artifacts"",
+      ""subcategory"": ""alerts"",
+      ""defender_artifacts_items"": [
+        {""name"": ""Network traffic logs""},
+        {""name"": ""Device response times""}
+      ]
+    },
+    {
+      ""dataset_name"": ""Controlled lab experiments dataset"",
+      ""category"": ""defender_artifacts"",
+      ""subcategory"": ""alerts"",
+      ""defender_artifacts_items"": [
+        {""name"": ""Controlled device operation times""},
+        {""name"": ""Experimental response data""}
+      ]
+    }
+  ]
+}
+```"
