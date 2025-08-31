@@ -26,17 +26,14 @@ This repository contains scripts to:
 1) **Create & activate a virtualenv**
 ```bash
 python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
 ```
 2) **Install dependencies**
 Install with:
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
-```
 
+```
 
 ## Repository Structure
 
